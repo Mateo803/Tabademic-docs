@@ -4,6 +4,7 @@
 
 </div>
 
+
 # Manual de usuario de Tabademic
 
 Tabademic es un software de tabulación **enfocado exclusivamente en debate académico**, cuya principal finalidad es la de facilitar en la mayor medida de lo posible la tabulación de este tipo de competiciones.

@@ -15,7 +15,7 @@ Una vez creado el torneo, recibirás la URL del torneo, un usuario y una contras
 Asegúrate por favor de no compartir la contraseña con nadie. <span style="font-weight: bold">En caso de una brecha de seguridad, contacta inmediatamente con el desarollador.</span>
 </div>
 
-## Iniciar sesión
+## Iniciar sesión 🔑
 
 Una vez le des click a la URL del torneo, aparecerá la siguiente página de login.
 
@@ -23,7 +23,7 @@ Una vez le des click a la URL del torneo, aparecerá la siguiente página de log
 
 Simplemente debes iniciar sesión con el usuario y contraseña obtenidos en el paso anterior. Después de ello, serás redirigido a la página de configuración.
 
-## Configurar el torneo
+## Configurar el torneo ⚙️
 
 Tabademic cuenta con diversas opciones de configuración, de tal forma que pueda adaptarse a diferentes tipos de torneos.
 

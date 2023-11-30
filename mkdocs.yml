@@ -1,0 +1,8 @@
+site_name: Tabademic
+
+theme: readthedocs
+
+nav:
+  - Inicio: index.md
+  - Primeros pasos: primeros_pasos.md
+  - Manipular datos: datos.md

@@ -124,3 +124,20 @@ Estas representan aquellos lugares donde se realizarán los debates. Pueden albe
 Además, cuentan con un campo `descripción`, el cual permite (en caso de considerarse necesario, ya que no es obligatorio rellenarlo) especificar detalles de la sala en sí (ubicación, accesibilidad a la misma, etc.).
 
 ![Ejemplo de sala]
+
+#### Rondas
+
+Las cuales incluyen tanto las clasificatorias (1,2,3...) como las finales (octavos, cuartos, semis o final).
+
+Debido a su naturaleza, la forma de insertarlas es de manera secuencial, comenzando con la ronda 1, luego la 2 y así sucesivamente hasta el número de rondas clasificatorias necesarias.
+
+Y con respecto a las rondas finales, simplemente bastará con elegir la primera de ellas (que dependiendo del torneo pueden ser cuartos, semis, etc.) y del mismo modo que con las rondas clasificatorias, se podrá elegir la siguiente sucesivamente.
+
+<div class="warning">
+
+⚠️
+
+Una vez se haya insertado la ronda final, no será posible introducir más rondas
+
+
+</div>

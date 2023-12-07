@@ -1,6 +1,6 @@
 <div style="display: flex; justify-content: center; margin-bottom: 1.5rem;">
 
-    <img src="screenshots/logo.png" height="300" width="300">
+<img src="screenshots/logo.png" height="300" width="300">
 
 </div>
 

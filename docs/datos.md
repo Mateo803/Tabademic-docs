@@ -1,13 +1,3 @@
-<style>
-
-.caption {
-
-    text-align: center;
-    color: gray;
-}
-
-</style>
-
 # Datos
 
 Estas son las entidades que han de insertarse para poder comenzar a tabular cualquier torneo:
@@ -113,7 +103,7 @@ Esta entidad muestra todos los clubes presentes en el torneo, incluyendo además
 
 Para registrar a un equipo basta con introducir el nombre del equipo y el club al que pertenece.
 
-<div style="display: flex; justify-content: center; width:auto; margin-bottom:2rem;">
+<div class="centered-image">
 
 <img src="../screenshots/equipo.png" alt="Ejemplo de equipo">
 
@@ -203,7 +193,7 @@ Para que Tabademic sepa con qué jueces cuenta en cada ronda, es necesario que a
 
 Para ello, se cuenta con una serie de checkboxes con cada una de las rondas del torneo **(las cuales deberán estar previamente insertadas, ya que de lo contrario no aparecerá ninguna**).
 
-<div style="display: flex; justify-content: center; width:auto; margin-bottom:2rem;">
+<div class="centered-image">
 
 <img src="../screenshots/disponibilidades.png" alt="Ejemplo de disponibilidades">
 

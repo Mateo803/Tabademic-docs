@@ -1,14 +1,3 @@
-<style>
-
-.caption {
-
-    text-align: center;
-    color: gray;
-}
-
-</style>
-
-
 # Generación de enfrentamientos
 
 ## Flujo

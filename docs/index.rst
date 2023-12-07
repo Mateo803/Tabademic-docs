@@ -1,6 +1,6 @@
 .. toctoree::
     
-    index
+    inicio
     primeros_pasos
     manipular_datos
     datos

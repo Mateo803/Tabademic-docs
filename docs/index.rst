@@ -1,4 +1,4 @@
-.. toctoree::
+.. toctree::
     
     inicio
     primeros_pasos

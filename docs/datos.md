@@ -195,7 +195,7 @@ Para ello, se cuenta con una serie de checkboxes con cada una de las rondas del 
 
 <div class="centered-image">
 
-<img src="../screenshots/disponibilidades.png" alt="Ejemplo de disponibilidades">
+![Ejemplo de disponibilidades](screenshots/disponibilidades.png)
 
 </div>
 

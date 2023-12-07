@@ -1,14 +1,3 @@
-<style>
-
-.caption {
-
-    text-align: center;
-    color: gray;
-}
-
-
-</style>
-
 # Manipulando datos
 
 Una vez se ha configurado satisfactoriamente el torneo, se deben insertar todos los datos del mismo. Pero antes, veremos las 4 operaciones que pueden realizarse sobre estos:
@@ -85,4 +74,4 @@ En cada caso específico vendrá un mensaje de error advirtiendo el por qué no 
 
 <br>
 
-En la siguiente sección veremos cada una de las entidades que dispone Tabademic, a las cuales podemos realizarle las operaciones descritas anteriormente cuando y cómo se desee.
+En la siguiente sección veremos qué datos han de insertarse inicialmente, sobre los cuales podremos realizar cualquiera de las operaciones descritas anteriormente cuando y cómo se desee.

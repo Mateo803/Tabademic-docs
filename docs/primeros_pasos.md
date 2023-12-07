@@ -1,11 +1,9 @@
-<link href="styles.css" rel="stylesheet"></link>
-
 # Primeros pasos
 
 ## Solicitar la creación del torneo
 
 Tabademic no require de ningún tipo de instalación, ya que toda su funcionalidad se encuentra disponible **en la web**. Sin embargo, cada torneo debe
-de ser creado de antemano por el desarrollador del programa. Sus datos de contacto los puedes encontrar en la sección **autor**.
+de ser creado de antemano por el desarrollador del programa. Sus datos de contacto los puedes encontrar en la sección **desarrollador**.
 
 Una vez creado el torneo, recibirás la URL del torneo, un usuario y una contraseña, con los que podrás comenzar a utilizar Tabademic sin ningún tipo de conocimientos técnicos.
 

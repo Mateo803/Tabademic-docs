@@ -2,3 +2,9 @@ version: 2
 
 mkdocs:
   configuration: mkdocs.yml
+
+builds:
+
+  tools:
+
+    python: "3.12"

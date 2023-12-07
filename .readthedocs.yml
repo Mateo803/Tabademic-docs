@@ -1,9 +1,8 @@
 version: 2
 
-mkdocs:
-  configuration: mkdocs.yml
+build:
 
-builds:
+  os: ubuntu-22.04
 
   tools:
 

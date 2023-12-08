@@ -47,7 +47,7 @@ Esto únicamente determina qué equipos se enfrentarán en cada debate. Las post
 
 Para comenzar, simplemente habrá que darle click a la página del mismo nombre, la cual se encuentra bajo la pestaña `Debates`. Una vez hecho esto, aparecerá un icono de carga indicándonos que se están comprobando todos los datos del torneo y evitar así que haya algún problema a posteriori.
 
-![Comprobación de datos](screenshots/comprobacion_generacion_enfrentamientos.png)
+![Comprobación de datos](_images/comprobacion_generacion_enfrentamientos.png)
 
 <div class="caption">Pantalla de carga</div>
 
@@ -61,7 +61,7 @@ Si aparece algún mensaje de error tras la comprobación de datos, no te preocup
 
 </div>
 
-![Error generación de enfrentamientos](screenshots/error_generacion_enfrentamientos.png)
+![Error generación de enfrentamientos](_images/error_generacion_enfrentamientos.png)
 
 <div class="caption">Ejemplo de error</div>
 
@@ -69,7 +69,7 @@ Si aparece algún mensaje de error tras la comprobación de datos, no te preocup
 
 Si todo ha salido correctamente, se mostrará un pequeño mensaje confirmando que todo ha ido bien y posteriormente la tabla con los enfrentamientos en cuestión.
 
-![Enfrentamientos](screenshots/enfrentamientos.png)
+![Enfrentamientos](_images/enfrentamientos.png)
 
 <div class="caption">Enfrentamientos de la primera ronda</div>
 
@@ -131,7 +131,7 @@ Cada vez que se arrastra un juez de una celda a otra, se comprueba que no haya n
 
 En caso de haber una, la celda en cuestión cambiará de color, indicando que existe una determinada incompatibilidad. Puedes encontrar la leyenda [aquí](incompatibilidades.md).
 
-![Ejemplo de incompatibilidad](screenshots/incompatibilidad.png)
+![Ejemplo de incompatibilidad](_images/incompatibilidad.png)
 
 <div class="caption">Ejemplo de incompatibilidad</div>
 

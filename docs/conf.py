@@ -1,5 +1,9 @@
 project = "tabademic"
 
+author = "Mateo Hernández Vélez"
+
+copyright = "2023, Mateo Hernández Vélez"
+
 language = "es"
 
 extensions = ["sphinx_rtd_theme","myst_parser"]

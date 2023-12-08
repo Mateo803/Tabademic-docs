@@ -27,7 +27,7 @@ Puedes acceder a cada uno de ellas desde la barra lateral, expandiendo <span sty
 </div>
 
 
-![Datos](screenshots/datos.png)
+![Datos](_images/datos.png)
 
 
 ## Salas 🚪
@@ -36,13 +36,13 @@ Estas representan aquellos lugares donde se realizarán los debates. Pueden albe
 
 Además, cuentan con un campo `descripción`, el cual permite (en caso de considerarse necesario, ya que no es obligatorio rellenarlo) especificar detalles de la sala en sí (ubicación, accesibilidad a la misma, etc.).
 
-![Ejemplo de sala](screenshots/ejemplo_sala.png)
+![Ejemplo de sala](_images/ejemplo_sala.png)
 
 <div class="caption">Ejemplo de sala</div>
 
 <br>
 
-![Salas](screenshots/salas.png)
+![Salas](_images/salas.png)
 
 <div class="caption">10 primeras salas del torneo de prueba</div>
 
@@ -65,7 +65,7 @@ Debido a su naturaleza, la forma de insertarlas es de manera secuencial, comenza
 Y con respecto a las rondas finales, simplemente bastará con elegir la primera de ellas (que dependiendo del torneo pueden ser cuartos, semis, etc.) y del mismo modo que con las rondas clasificatorias, se podrá elegir la siguiente sucesivamente.
 
 
-![Ejemplo de rondas](screenshots/rondas.png)
+![Ejemplo de rondas](_images/rondas.png)
 
 <div class="caption">Ejemplo de un torneo con 6 rondas clasificatorias y 4 rondas finales</div>
 
@@ -93,7 +93,7 @@ entidad).
 Esta entidad muestra todos los clubes presentes en el torneo, incluyendo además cuántos equipos y jueces están adscritos a cada uno de ellos.
 
 
-![Ejemplo de clubes](screenshots/clubes.png)
+![Ejemplo de clubes](_images/clubes.png)
 
 <div class="caption">10 primeros clubes del torneo de prueba</div>
 
@@ -105,7 +105,7 @@ Para registrar a un equipo basta con introducir el nombre del equipo y el club a
 
 <div class="centered-image">
 
-<img src="../screenshots/equipo.png" alt="Ejemplo de equipo">
+![Ejemplo de equipo](_images/equipo.png)
 
 </div>
 
@@ -121,7 +121,7 @@ También es posible permitir a los participantes que registren ellos mismos el e
 
 <br>
 
-![Equipos](screenshots/equipos.png)
+![Equipos](_images/equipos.png)
 
 <div class="caption">10 primeros equipos del torneo de prueba</div>
 
@@ -138,7 +138,7 @@ Como puede apreciarse en la última imagen, es posible cambiar la disponibilidad
 
 Representan a los integrantes de los diferentes equipos. Por lo tanto, hay que insertar el equipo al que pertenecen (y marcar la casilla de capitán en caso de que el participante en cuestión lo sea).
 
-![Orador](screenshots/orador.png)
+![Orador](_images/orador.png)
 
 <div class="caption">Ejemplo de orador</div>
 
@@ -155,7 +155,7 @@ Representan a los integrantes de los diferentes equipos. Por lo tanto, hay que i
 
 <br>
 
-![Oradores](screenshots/oradores.png)
+![Oradores](_images/oradores.png)
 
 <div class="caption">Ejemplo de oradores</div>
 
@@ -173,7 +173,7 @@ Esta entidad, al igual que en el caso de los clubes, no puede ser insertada dire
 
 Su utilidad radica en que es posible ver directamente la información de contacto de cada capitán, lo cual puede ser especialmente útil por si se desea enviar un **correo al equipo** o se desea crear el clásico **grupo de capitanes** de Whatsapp.
 
-![Capitanes](screenshots/capitanes.png)
+![Capitanes](_images/capitanes.png)
 
 <div class="caption">Ejemplo de capitanes</div>
 
@@ -195,7 +195,7 @@ Para ello, se cuenta con una serie de checkboxes con cada una de las rondas del 
 
 <div class="centered-image">
 
-![Ejemplo de disponibilidades](screenshots/disponibilidades.png)
+![Ejemplo de disponibilidades](_images/disponibilidades.png)
 
 </div>
 
@@ -222,7 +222,7 @@ No existe un rango mínimo ni máximo para la puntuación, ya que se deja a libr
 
 </div>
 
-![Juez](screenshots/juez.png)
+![Juez](_images/juez.png)
 
 <div class="caption" style="text-align:center;">Ejemplo de juez</div>
 
@@ -240,7 +240,7 @@ Además de las incompatibilidades entre clubes (ya sean actual como antiguos), e
 
 Para añadir este tipo de incompatibilidad, simplemente basta con seleccionar en el primer desplegable el juez en cuestión, y en el segundo la incompatibilidad en sí.
 
-![Incompatibilidad entre jueces](screenshots/incompatibilidad_jueces.png)
+![Incompatibilidad entre jueces](_images/incompatibilidad_jueces.png)
 
 <div class="caption">Ejemplo de incompatibilidad entre dos jueces</div>
 
@@ -257,7 +257,7 @@ No hay límite en cuanto al número de incompatibilidades que puede tener un mis
 
 Similar a la entidad anterior, solo que esta vez el segundo desplegable se refiere al equipo en cuestión.
 
-![Incompatibilidad entre jueces y equipos](screenshots/incompatibilidad_juez_equipo.png)
+![Incompatibilidad entre jueces y equipos](_images/incompatibilidad_juez_equipo.png)
 
 <div class="caption">Ejemplo de incompatibilidad entre un juez y un equipo</div>
 

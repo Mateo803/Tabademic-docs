@@ -17,7 +17,7 @@ Asegúrate por favor de no compartir la contraseña con nadie. <span style="font
 
 Una vez le des click a la URL del torneo, aparecerá la siguiente página de login.
 
-![Login](screenshots/login.png)
+![Login](_images/login.png)
 
 Simplemente debes iniciar sesión con el usuario y contraseña obtenidos en el paso anterior. Después de ello, serás redirigido a la página de configuración.
 
@@ -54,4 +54,4 @@ Además, en la parte inferior de la página se encuentran los siguientes botones
 ⚠️Pulsar en reitaradas ocasiones el botón de reiniciar ronda actual hará que se vayan eliminando una ronda tras otra del torneo. Utilizar con sumo cuidado.
 </div>
 
-![Ejemplo de configuración](screenshots/menu_configuracion.png)
+![Ejemplo de configuración](_images/menu_configuracion.png)

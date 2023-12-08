@@ -17,7 +17,7 @@ Cada vez que le des click a una entidad, aparecerá una tabla con la informació
 
 Dicha tabla solo contiene una porción de los datos. Para ver el resto, simplemente debes darle click a la flecha de la parte inferior derecha (similar a cuando buscas algo en Google), permitiendo así cargar las siguientes filas.
 
-![Ejemplo de visualización](screenshots/ejemplo_visualizacion.png)
+![Ejemplo de visualización](_images/ejemplo_visualizacion.png)
 
 <div class="caption"> Ejemplo de las salas del torneo</div>
 
@@ -68,7 +68,7 @@ En cada caso específico vendrá un mensaje de error advirtiendo el por qué no 
 
 </div>
 
-![Ejemplo de error de borrado](screenshots/ejemplo_error_borrado.png)
+![Ejemplo de error de borrado](_images/ejemplo_error_borrado.png)
 
 <div class="caption">Ejemplo de error al internar borrar un equipo con sus integrantes aún insertados</div>
 

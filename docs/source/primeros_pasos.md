@@ -9,7 +9,7 @@ Una vez creado el torneo, recibirás la URL del torneo, un usuario y una contras
 
 <div class="warning"> 
 
-⚠️El usuario previamente mencionado tiene <span style="font-weight: bold">rol de tabulador </span>, el cual tiene acceso de lectura/escritura a absolutamente todos los datos del torneo.
+⚠️ El usuario previamente mencionado tiene <span style="font-weight: bold">rol de tabulador </span>, el cual tiene acceso de lectura/escritura a absolutamente todos los datos del torneo.
 Asegúrate por favor de no compartir la contraseña con nadie. <span style="font-weight: bold">En caso de una brecha de seguridad, contacta inmediatamente con el desarollador.</span>
 </div>
 
@@ -51,7 +51,7 @@ Además, en la parte inferior de la página se encuentran los siguientes botones
 
 <div class="warning"> 
 
-⚠️Pulsar en reitaradas ocasiones el botón de reiniciar ronda actual hará que se vayan eliminando una ronda tras otra del torneo. Utilizar con sumo cuidado.
+⚠️ Pulsar en reitaradas ocasiones el botón de reiniciar ronda actual hará que se vayan eliminando una ronda tras otra del torneo. Utilizar con sumo cuidado.
 </div>
 
 ![Ejemplo de configuración](_images/menu_configuracion.png)

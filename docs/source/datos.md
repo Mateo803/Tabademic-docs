@@ -73,9 +73,7 @@ Y con respecto a las rondas finales, simplemente bastará con elegir la primera 
 
 <div class="warning">
 
-⚠️
-
-Una vez se haya insertado la ronda final, no será posible introducir más rondas (ya que se presupone que es la última del torneo).
+⚠️ Una vez se haya insertado la ronda final, no será posible introducir más rondas (ya que se presupone que es la última del torneo).
 
 
 </div>
@@ -146,9 +144,7 @@ Representan a los integrantes de los diferentes equipos. Por lo tanto, hay que i
 
 <div class="warning">
 
-⚠️
-
-Únicamente el nombre del orador y el equipo de procedencia son obligatorios; el resto de campos pueden rellenarse o no a voluntad de los requisitos del torneo.
+⚠️ Únicamente el nombre del orador y el equipo de procedencia son obligatorios; el resto de campos pueden rellenarse o no a voluntad de los requisitos del torneo.
 
 
 </div>
@@ -183,11 +179,11 @@ Su utilidad radica en que es posible ver directamente la información de contact
 
 Esta entidad representa a todos los jueces que juzgarán al menos un debate a lo largo de todo el torneo. A continuación se presentarán los 3 principales datos con los que debe contar cada juez (además del nombre y el resto de información opcional similar a los oradores, claro está).
 
-####  Clubes
+###  Clubes
 
 Es posible indicar el club al que juez pertenece en la actualidad **(club actual)**, además de los clubes en los cuales estuvo en el pasado **(clubes antiguos)** (en caso de haber, claro está). Todo ello para poder controlar las incompatibilidades de tipo club.
 
-#### Disponibilidades
+### Disponibilidades
 
 Para que Tabademic sepa con qué jueces cuenta en cada ronda, es necesario que a la hora de insertar un juez, se indice expresamente en qué rondas estará disponible.
 
@@ -210,7 +206,7 @@ Es posible modificar dichas disponibilidades en el futuro, así que no te preocu
 
 </div>
 
-#### Puntuación
+### Puntuación
 
 Como es bien sabido, cada debate lo juzga un juez principal y (en caso de haber) uno o más jueces secundarios. El criterio para determinar quién será principal o secundario se realiza a través de la puntuación.
 
@@ -236,7 +232,7 @@ Además de las incompatibilidades entre clubes (ya sean actual como antiguos), e
 
 * Entre jueces y equipos
 
-#### Entre jueces
+### Entre jueces
 
 Para añadir este tipo de incompatibilidad, simplemente basta con seleccionar en el primer desplegable el juez en cuestión, y en el segundo la incompatibilidad en sí.
 
@@ -252,7 +248,7 @@ No hay límite en cuanto al número de incompatibilidades que puede tener un mis
 
 </div>
 
-#### Entre jueces y equipos
+### Entre jueces y equipos
 
 
 Similar a la entidad anterior, solo que esta vez el segundo desplegable se refiere al equipo en cuestión.
@@ -265,9 +261,7 @@ Similar a la entidad anterior, solo que esta vez el segundo desplegable se refie
 
 <div class="warning">
 
-⚠️
-
-Aunque en el desplegable de equipos aparezcan tanto del club actual como del club antiguo del juez, <span style="font-weight: bold;">no es necesario incluirlos</span> ya que Tabademic los tiene directamente en cuenta de manera interna (de ahí el porqué de que cada juez tenga un club asignado).
+⚠️ Aunque en el desplegable de equipos aparezcan tanto del club actual como del club antiguo del juez, <span style="font-weight: bold;">no es necesario incluirlos</span> ya que Tabademic los tiene directamente en cuenta de manera interna (de ahí el porqué de que cada juez tenga un club asignado).
 
 
 </div>

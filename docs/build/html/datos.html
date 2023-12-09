@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="es" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Datos &mdash; documentación de Tabademic - </title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="_static/style.css?v=2d509f72" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="_static/jquery.js?v=5d32c60e"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="_static/documentation_options.js?v=e2bb6099"></script>
+        <script src="_static/doctools.js?v=888ff710"></script>
+        <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="_static/translations.js?v=efdbd0b9"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Índice" href="genindex.html" />
+    <link rel="search" title="Búsqueda" href="search.html" />
+    <link rel="next" title="Generación de enfrentamientos" href="generacion_enfrentamientos.html" />
+    <link rel="prev" title="Manipulando datos" href="manipular_datos.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            Tabademic
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Buscar documentos" aria-label="Buscar documentos" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="primeros_pasos.html">Primeros pasos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="manipular_datos.html">Manipulando datos</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Datos</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#salas">Salas 🚪</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#rondas">Rondas 📅</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#clubes">Clubes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#equipos">Equipos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#oradores">Oradores 🗣️</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#capitanes">Capitanes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#jueces">Jueces 🧑🏼‍⚖️</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id1">Clubes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#disponibilidades">Disponibilidades</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#puntuacion">Puntuación</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#incompatibilidades">Incompatibilidades</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#entre-jueces">Entre jueces</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#entre-jueces-y-equipos">Entre jueces y equipos</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="generacion_enfrentamientos.html">Generación de enfrentamientos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="debates.html">Debates</a></li>
+<li class="toctree-l1"><a class="reference internal" href="desarrollador.html">Desarrollador</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Tabademic</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Datos</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/datos.md.txt" rel="nofollow"> Ver código fuente de la página</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="datos">
+<h1>Datos<a class="headerlink" href="#datos" title="Link to this heading"></a></h1>
+<p>Estas son las entidades que han de insertarse para poder comenzar a tabular cualquier torneo:</p>
+<ul class="simple">
+<li><p>Salas</p></li>
+<li><p>Rondas</p></li>
+<li><p>Clubes</p></li>
+<li><p>Equipos</p></li>
+<li><p>Oradores</p></li>
+<li><p>Capitanes</p></li>
+<li><p>Jueces</p></li>
+<li><p>Incompatibilidades entre jueces</p></li>
+<li><p>Incompatibilidades entre jueces y equipos</p></li>
+</ul>
+<div class="tip">
+💡
+Puedes acceder a cada uno de ellas desde la barra lateral, expandiendo <span style="font-weight: bold;">datos del torneo.</span>
+</div>
+<p><img alt="Datos" src="_images/datos.png" /></p>
+<section id="salas">
+<h2>Salas 🚪<a class="headerlink" href="#salas" title="Link to this heading"></a></h2>
+<p>Estas representan aquellos lugares donde se realizarán los debates. Pueden albergar valores tanto numéricos (1,2,3, …) como alfanuméricos (Aula 1, Aula 2, …). La elección de un tipo u otro dependerá de cada torneo en cuestión.</p>
+<p>Además, cuentan con un campo <code class="docutils literal notranslate"><span class="pre">descripción</span></code>, el cual permite (en caso de considerarse necesario, ya que no es obligatorio rellenarlo) especificar detalles de la sala en sí (ubicación, accesibilidad a la misma, etc.).</p>
+<p><img alt="Ejemplo de sala" src="_images/ejemplo_sala.png" /></p>
+<div class="caption">Ejemplo de sala</div>
+<br>
+<p><img alt="Salas" src="_images/salas.png" /></p>
+<div class="caption">10 primeras salas del torneo de prueba</div>
+<br>
+<div class="tip">
+💡
+Puedes modificar la disponibilidad de cada sala mediante la última columna.
+</div>
+<br>
+</section>
+<section id="rondas">
+<h2>Rondas 📅<a class="headerlink" href="#rondas" title="Link to this heading"></a></h2>
+<p>Las cuales incluyen tanto las clasificatorias (1,2,3…) como las finales (octavos, cuartos, semis o final).</p>
+<p>Debido a su naturaleza, la forma de insertarlas es de manera secuencial, comenzando con la ronda 1, luego la 2 y así sucesivamente hasta el número de rondas clasificatorias necesarias.</p>
+<p>Y con respecto a las rondas finales, simplemente bastará con elegir la primera de ellas (que dependiendo del torneo pueden ser cuartos, semis, etc.) y del mismo modo que con las rondas clasificatorias, se podrá elegir la siguiente sucesivamente.</p>
+<p><img alt="Ejemplo de rondas" src="_images/rondas.png" /></p>
+<div class="caption">Ejemplo de un torneo con 6 rondas clasificatorias y 4 rondas finales</div>
+<br>
+<div class="warning">
+<p>⚠️ Una vez se haya insertado la ronda final, no será posible introducir más rondas (ya que se presupone que es la última del torneo).</p>
+</div>
+<div class="tip">
+💡
+Puedes eliminar una ronda utilizando la papelerita que se encuentra en la última columna, pero ten en cuenta que solo
+podrá hacerse con la última de todas (ya que de lo contrario se perdería la secuencia que requiere la inserción de esta
+entidad).
+</div>
+</section>
+<section id="clubes">
+<h2>Clubes<a class="headerlink" href="#clubes" title="Link to this heading"></a></h2>
+<p>Esta entidad muestra todos los clubes presentes en el torneo, incluyendo además cuántos equipos y jueces están adscritos a cada uno de ellos.</p>
+<p><img alt="Ejemplo de clubes" src="_images/clubes.png" /></p>
+<div class="caption">10 primeros clubes del torneo de prueba</div>
+<br>
+</section>
+<section id="equipos">
+<h2>Equipos<a class="headerlink" href="#equipos" title="Link to this heading"></a></h2>
+<p>Para registrar a un equipo basta con introducir el nombre del equipo y el club al que pertenece.</p>
+<div class="centered-image">
+<p><img alt="Ejemplo de equipo" src="_images/equipo.png" /></p>
+</div>
+<div class="caption">Ejemplo de inserción de un nuevo equipo</div>
+<br>
+<div class="tip">
+💡
+También es posible permitir a los participantes que registren ellos mismos el equipo. Ver <span style="font-weight: bold;">Registro de equipos</span>
+</div>
+<br>
+<p><img alt="Equipos" src="_images/equipos.png" /></p>
+<div class="caption">10 primeros equipos del torneo de prueba</div>
+<br>
+<div class="tip">
+💡
+Como puede apreciarse en la última imagen, es posible cambiar la disponibilidad de cada equipo en todo momento (por defecto estarán todos disponibles hasta que se especifique lo contrario).
+</div>
+<br>
+</section>
+<section id="oradores">
+<h2>Oradores 🗣️<a class="headerlink" href="#oradores" title="Link to this heading"></a></h2>
+<p>Representan a los integrantes de los diferentes equipos. Por lo tanto, hay que insertar el equipo al que pertenecen (y marcar la casilla de capitán en caso de que el participante en cuestión lo sea).</p>
+<p><img alt="Orador" src="_images/orador.png" /></p>
+<div class="caption">Ejemplo de orador</div>
+<br>
+<div class="warning">
+<p>⚠️ Únicamente el nombre del orador y el equipo de procedencia son obligatorios; el resto de campos pueden rellenarse o no a voluntad de los requisitos del torneo.</p>
+</div>
+<br>
+<p><img alt="Oradores" src="_images/oradores.png" /></p>
+<div class="caption">Ejemplo de oradores</div>
+<br>
+<div class="tip">
+💡
+Nuevamente se puede cambiar a voluntad la disponibilidad de cada orador.
+</div>
+</section>
+<section id="capitanes">
+<h2>Capitanes<a class="headerlink" href="#capitanes" title="Link to this heading"></a></h2>
+<p>Esta entidad, al igual que en el caso de los clubes, no puede ser insertada directamente, ya que únicamente muestra los capitanes de cada uno de los equipos registrados hasta ahora.</p>
+<p>Su utilidad radica en que es posible ver directamente la información de contacto de cada capitán, lo cual puede ser especialmente útil por si se desea enviar un <strong>correo al equipo</strong> o se desea crear el clásico <strong>grupo de capitanes</strong> de Whatsapp.</p>
+<p><img alt="Capitanes" src="_images/capitanes.png" /></p>
+<div class="caption">Ejemplo de capitanes</div>
+<br>
+</section>
+<section id="jueces">
+<h2>Jueces 🧑🏼‍⚖️<a class="headerlink" href="#jueces" title="Link to this heading"></a></h2>
+<p>Esta entidad representa a todos los jueces que juzgarán al menos un debate a lo largo de todo el torneo. A continuación se presentarán los 3 principales datos con los que debe contar cada juez (además del nombre y el resto de información opcional similar a los oradores, claro está).</p>
+<section id="id1">
+<h3>Clubes<a class="headerlink" href="#id1" title="Link to this heading"></a></h3>
+<p>Es posible indicar el club al que juez pertenece en la actualidad <strong>(club actual)</strong>, además de los clubes en los cuales estuvo en el pasado <strong>(clubes antiguos)</strong> (en caso de haber, claro está). Todo ello para poder controlar las incompatibilidades de tipo club.</p>
+</section>
+<section id="disponibilidades">
+<h3>Disponibilidades<a class="headerlink" href="#disponibilidades" title="Link to this heading"></a></h3>
+<p>Para que Tabademic sepa con qué jueces cuenta en cada ronda, es necesario que a la hora de insertar un juez, se indice expresamente en qué rondas estará disponible.</p>
+<p>Para ello, se cuenta con una serie de checkboxes con cada una de las rondas del torneo <strong>(las cuales deberán estar previamente insertadas, ya que de lo contrario no aparecerá ninguna</strong>).</p>
+<div class="centered-image">
+<p><img alt="Ejemplo de disponibilidades" src="_images/disponibilidades.png" /></p>
+</div>
+<div class="caption" style="text-align:center;">Ejemplo de disponibilidades</div>
+<br>
+<div class="tip">
+💡
+Es posible modificar dichas disponibilidades en el futuro, así que no te preocupes si se trata únicamente de algo provisional.
+</div>
+</section>
+<section id="puntuacion">
+<h3>Puntuación<a class="headerlink" href="#puntuacion" title="Link to this heading"></a></h3>
+<p>Como es bien sabido, cada debate lo juzga un juez principal y (en caso de haber) uno o más jueces secundarios. El criterio para determinar quién será principal o secundario se realiza a través de la puntuación.</p>
+<p>Como su nombre indica, sirve para «valorar» (ya que es algo profundamente subjetivo) la calidad del juez. Cuanto más alto, más probable es que dicho juez sea principal en aquellas rondas en las que vaya a estar presente, y viceversa.</p>
+<div class="tip">
+💡
+No existe un rango mínimo ni máximo para la puntuación, ya que se deja a libre elección del equipo de organización. Aún así, lo recomendable es que este vaya del <span style="font-weight: bold;">1 al 10</span> ó del <span style="font-weight: bold;">1 al 100</span> (pudiendo incluir números decimales si se estima oportuno).
+</div>
+<p><img alt="Juez" src="_images/juez.png" /></p>
+<div class="caption" style="text-align:center;">Ejemplo de juez</div>
+<br>
+</section>
+</section>
+<section id="incompatibilidades">
+<h2>Incompatibilidades<a class="headerlink" href="#incompatibilidades" title="Link to this heading"></a></h2>
+<p>Además de las incompatibilidades entre clubes (ya sean actual como antiguos), es posible especificar dos tipos de incompatibilidades extra:</p>
+<ul class="simple">
+<li><p>Entre jueces</p></li>
+<li><p>Entre jueces y equipos</p></li>
+</ul>
+<section id="entre-jueces">
+<h3>Entre jueces<a class="headerlink" href="#entre-jueces" title="Link to this heading"></a></h3>
+<p>Para añadir este tipo de incompatibilidad, simplemente basta con seleccionar en el primer desplegable el juez en cuestión, y en el segundo la incompatibilidad en sí.</p>
+<p><img alt="Incompatibilidad entre jueces" src="_images/incompatibilidad_jueces.png" /></p>
+<div class="caption">Ejemplo de incompatibilidad entre dos jueces</div>
+<br>
+<div class="tip">
+💡
+No hay límite en cuanto al número de incompatibilidades que puede tener un mismo juez.
+</div>
+</section>
+<section id="entre-jueces-y-equipos">
+<h3>Entre jueces y equipos<a class="headerlink" href="#entre-jueces-y-equipos" title="Link to this heading"></a></h3>
+<p>Similar a la entidad anterior, solo que esta vez el segundo desplegable se refiere al equipo en cuestión.</p>
+<p><img alt="Incompatibilidad entre jueces y equipos" src="_images/incompatibilidad_juez_equipo.png" /></p>
+<div class="caption">Ejemplo de incompatibilidad entre un juez y un equipo</div>
+<br>
+<div class="warning">
+<p>⚠️ Aunque en el desplegable de equipos aparezcan tanto del club actual como del club antiguo del juez, <span style="font-weight: bold;">no es necesario incluirlos</span> ya que Tabademic los tiene directamente en cuenta de manera interna (de ahí el porqué de que cada juez tenga un club asignado).</p>
+</div>
+<p>Una vez vistos todas las entidades, ¡ya es hora de generar los enfrentamientos!</p>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Pie de página">
+        <a href="manipular_datos.html" class="btn btn-neutral float-left" title="Manipulando datos" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Anterior</a>
+        <a href="generacion_enfrentamientos.html" class="btn btn-neutral float-right" title="Generación de enfrentamientos" accesskey="n" rel="next">Siguiente <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Derechos de autor 2023, Mathieu Hernández Vélez.</p>
+  </div>
+
+  Compilado con <a href="https://www.sphinx-doc.org/">Sphinx</a> usando un
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">tema</a>
+    proporcionado por <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="es" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manipulando datos &mdash; documentación de Tabademic - </title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="_static/style.css?v=2d509f72" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="_static/jquery.js?v=5d32c60e"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="_static/documentation_options.js?v=e2bb6099"></script>
+        <script src="_static/doctools.js?v=888ff710"></script>
+        <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="_static/translations.js?v=efdbd0b9"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Índice" href="genindex.html" />
+    <link rel="search" title="Búsqueda" href="search.html" />
+    <link rel="next" title="Datos" href="datos.html" />
+    <link rel="prev" title="Primeros pasos" href="primeros_pasos.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            Tabademic
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Buscar documentos" aria-label="Buscar documentos" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="primeros_pasos.html">Primeros pasos</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Manipulando datos</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#visualizacion">Visualización 👁️‍🗨️</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#insercion">Inserción ✏️</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#modificacion">Modificación</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#borrado">Borrado 🗑️</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="datos.html">Datos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="generacion_enfrentamientos.html">Generación de enfrentamientos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="debates.html">Debates</a></li>
+<li class="toctree-l1"><a class="reference internal" href="desarrollador.html">Desarrollador</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Tabademic</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Manipulando datos</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/manipular_datos.md.txt" rel="nofollow"> Ver código fuente de la página</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="manipulando-datos">
+<h1>Manipulando datos<a class="headerlink" href="#manipulando-datos" title="Link to this heading"></a></h1>
+<p>Una vez se ha configurado satisfactoriamente el torneo, se deben insertar todos los datos del mismo. Pero antes, veremos las 4 operaciones que pueden realizarse sobre estos:</p>
+<ul class="simple">
+<li><p>Visualización</p></li>
+<li><p>Inserción</p></li>
+<li><p>Modificación</p></li>
+<li><p>Borrado</p></li>
+</ul>
+<section id="visualizacion">
+<h2>Visualización 👁️‍🗨️<a class="headerlink" href="#visualizacion" title="Link to this heading"></a></h2>
+<p>Cada vez que le des click a una entidad, aparecerá una tabla con la información insertada hasta ese momento (en caso de no haber datos todavía, solo será visible la primera fila, la cual corresponde al nombre de las columnas).</p>
+<p>Dicha tabla solo contiene una porción de los datos. Para ver el resto, simplemente debes darle click a la flecha de la parte inferior derecha (similar a cuando buscas algo en Google), permitiendo así cargar las siguientes filas.</p>
+<p><img alt="Ejemplo de visualización" src="_images/ejemplo_visualizacion.png" /></p>
+<div class="caption"> Ejemplo de las salas del torneo</div>
+</section>
+<section id="insercion">
+<h2>Inserción ✏️<a class="headerlink" href="#insercion" title="Link to this heading"></a></h2>
+<p>Para insertar un dato concreto, simplemente debes irte a la página de la entidad (por ejemplo, salas) y después en el botón azul de la esquina superior derecha.</p>
+<p>Esto te llevará a un formulario con los datos concretos de la entidad en cuestión (si es una sala, su nombre y una descripción).</p>
+<p>Los datos obligatorios aparecerán marcados con un pequeño asterisco rojo, mientras que los opcionales no vendrán acompañados de nada.</p>
+<p>Una vez hayas rellenado el formulario, simplemente dale click en «Guardar» para que se efectúen los cambios.</p>
+<div class="warning">
+<p>⚠️Ten en cuenta que hay campos que no se pueden repetir, ya que de lo contrario la aplicación no puede diferenciarlos. Por ejemplo, si ya existe una sala denominada “Sala”, no podrás insertar otra llamada igual.</p>
+</div>
+</section>
+<section id="modificacion">
+<h2>Modificación<a class="headerlink" href="#modificacion" title="Link to this heading"></a></h2>
+<p>La primera columna de cada entidad siempre aparecerá en color azul. Si le das click, te aparecerá un formulario similar al de inserción, pero con los datos ya rellenados de la entidad que estás tratanto de modificar.</p>
+<p>Simplemente cambia lo que consideres, dale click en «Guardar», y los cambios deberían haberse efectuado satisfactoriamente.</p>
+<div class="warning">
+<p>⚠️ Ten mucho cuidado al modificar debates, ya que si alteras el equipo ganador o los ítems, esto tendrá un impacto directo en la clasificación global del torneo.</p>
+</div>
+</section>
+<section id="borrado">
+<h2>Borrado 🗑️<a class="headerlink" href="#borrado" title="Link to this heading"></a></h2>
+<p>La última columna de cada tabla contendrá un icono de una papelerita. Simplemente debes darle click para borrar el elemento deseado.</p>
+<div class="warning">
+<p>⚠️ Los datos tienen una jerarquía, de tal manera que no es posible por ejemplo borrar un equipo si sus oradores aún se encuentran insertados.</p>
+<p>En cada caso específico vendrá un mensaje de error advirtiendo el por qué no se ha podido efectuar el borrado.</p>
+</div>
+<p><img alt="Ejemplo de error de borrado" src="_images/ejemplo_error_borrado.png" /></p>
+<div class="caption">Ejemplo de error al internar borrar un equipo con sus integrantes aún insertados</div>
+<br>
+<p>En la siguiente sección veremos qué datos han de insertarse inicialmente, sobre los cuales podremos realizar cualquiera de las operaciones descritas anteriormente cuando y cómo se desee.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Pie de página">
+        <a href="primeros_pasos.html" class="btn btn-neutral float-left" title="Primeros pasos" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Anterior</a>
+        <a href="datos.html" class="btn btn-neutral float-right" title="Datos" accesskey="n" rel="next">Siguiente <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Derechos de autor 2023, Mathieu Hernández Vélez.</p>
+  </div>
+
+  Compilado con <a href="https://www.sphinx-doc.org/">Sphinx</a> usando un
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">tema</a>
+    proporcionado por <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

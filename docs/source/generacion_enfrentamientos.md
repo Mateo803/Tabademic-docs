@@ -1,5 +1,23 @@
 # Generación de enfrentamientos
 
+## Prerrequisitos
+
+Además de **haber insertado todos los datos mostrados previamente**, es recomendable echarle un vistazo a la **disponibilidad de los jueces** (la cual se encuentra bajo la pestaña de Debates).
+
+En dicha página será posible ver qué jueces estarán disponibles en cada ronda, facilitando así el saber quiénes juzgarán la siguiente ronda.
+
+<div class="centered-image">
+
+![Jueces primera ronda](_images/jueces_primera_ronda.png)
+
+</div>
+
+<div class="caption">
+
+Jueces disponibles para la primera ronda
+
+</div>
+
 ## Flujo
 
 Cuando hablamos de generar enfrentamientos, nos referimos a los de la siguiente ronda. Esto se podrá hacer únicamente si hemos insertado todos los debates de la ronda actual (exceptuando el caso en el que acabemos de empezar el torneo, ya que podremos generar directamente los de la primera ronda).
@@ -24,11 +42,11 @@ La ronda inicial será 0, por lo que cuando generemos los primeros enfrentamient
 
 Esto dependerá de la ronda en cuestión.
 
-#### Rondas clasificatorias
+### Rondas clasificatorias
 
 La primera de forma totalmente aleatoria, mientras que el resto mediante el método suizo.
 
-#### Rondas finales
+### Rondas finales
 
 En la primera ronda final, pasan N equipos (16 si son octavos, 8 si son cuartos, etc.), enfrentándose el primer clasificado contra el último, el segundo contra el penúltimo, y así sucesivamente.
 
@@ -36,13 +54,11 @@ En las siguientes, se enfrentan únicamente aquellos equipos que han ganado en l
 
 <div class="warning"> 
 
-⚠️
-
-Esto únicamente determina qué equipos se enfrentarán en cada debate. Las posturas que tendrán cada uno vendrán determinadas por el número de AF y EC que ha debatido cada equipo hasta el momento, de tal manera que exista un equilibrio en dicho sentido (exceptuando la primera ronda y las rondas finales, donde se determinará al azar).
+⚠️ Esto únicamente determina qué equipos se enfrentarán en cada debate. Las posturas que tendrán cada uno vendrán determinadas por el número de AF y EC que ha debatido cada equipo hasta el momento, de tal manera que exista un equilibrio en dicho sentido (exceptuando la primera ronda y las rondas finales, donde se determinará al azar).
 
 </div>
 
-### Cómo se generan
+## Cómo se generan
 
 
 Para comenzar, simplemente habrá que darle click a la página del mismo nombre, la cual se encuentra bajo la pestaña `Debates`. Una vez hecho esto, aparecerá un icono de carga indicándonos que se están comprobando todos los datos del torneo y evitar así que haya algún problema a posteriori.
@@ -55,9 +71,7 @@ Para comenzar, simplemente habrá que darle click a la página del mismo nombre,
 
 <div class="warning"> 
 
-⚠️
-
-Si aparece algún mensaje de error tras la comprobación de datos, no te preocupes en absoluto. Simplemente léelo atentamente para saber qué ha salido mal y cómo se puede solucionar.
+⚠️ Si aparece algún mensaje de error tras la comprobación de datos, no te preocupes en absoluto. Simplemente léelo atentamente para saber qué ha salido mal y cómo se puede solucionar.
 
 </div>
 
@@ -98,19 +112,17 @@ La operación de drag and drop (o arrastrar y soltar en castellano) permite real
 
 A continuación se detallarán sus principales usos.
 
-#### Modificar enfrentamientos
+### Modificar enfrentamientos
 
 Podemos alterar qué equipos se enfrentan entre sí (o simplemente cambiar las posturas AF y EC).
 
 <div class="warning"> 
 
-⚠️
-
-Se recomienda realizar esta acción únicamente en la primera ronda o en casos muy concretos, ya que se podría alterar tanto el sistema suizo como la generación de rondas finales.
+⚠️ Se recomienda realizar esta acción únicamente en la primera ronda o en casos muy concretos, ya que se podría alterar tanto el sistema suizo como la generación de rondas finales.
 
 </div>
 
-#### Modificar jueces
+### Modificar jueces
 
 
 Tabademic asigna los jueces de acuerdo a dos criterios:
@@ -129,24 +141,64 @@ También puedes añadir un secundario a una sala. Simplemente debes arrastrarlo 
 
 Cada vez que se arrastra un juez de una celda a otra, se comprueba que no haya ninguna incompatibilidad tanto en la sala de origen como de destino (en caso de un desplazamiento horizontal, ambos coincidirán).
 
-En caso de haber una, la celda en cuestión cambiará de color, indicando que existe una determinada incompatibilidad. Puedes encontrar la leyenda [aquí](incompatibilidades.md).
+En caso de haber una, la celda en cuestión cambiará de color, indicando que existe una determinada incompatibilidad.
 
 ![Ejemplo de incompatibilidad](_images/incompatibilidad.png)
 
-<div class="caption">Ejemplo de incompatibilidad</div>
+<div class="caption">Ejemplo de incompatibilidad de club</div>
+
+<br>
+
+### Lista de incompatibilidades
+
+La siguiente tabla detalla todas las incompatibilidades que puede haber a la hora de generar enfrentamientos, con su color correspondiente y una pequeña descripción.
+
+<table>
+
+  <tr>
+    <th>Incompatibilidad</th>
+    <th>Descripción</th>
+  </tr>
+
+  <tr class="no-principal">
+    <td>No hay principal</td>
+    <td> El enfrentamiento en cuestión no cuenta con ningún juez principal</td>
+  </tr>
+  
+  <tr class="incompatibilidad-club">
+    <td>Incompatibilidad de club</td>
+    <td>Al menos uno de los jueces pertenece al mismo club (actual o antiguo) de al menos uno de los dos equipos</td>
+  </tr>
+
+<tr class="juzgado-anteriormente">
+    <td>Equipo juzgado anteriormente</td>
+    <td>Al menos uno de ambos equipos ha sido previamente juzgado por al menos uno de los jueces</td>
+  </tr>
+
+
+<tr class="incompatibilidad-jueces">
+    <td style="background-color: #c26cdf;">Incompatibilidad de jueces</td>
+    <td>Existe al menos una incompatibilidad entre 2 jueces</td>
+  </tr>
+
+
+<tr class="incompatibilidad-jueces-equipos">
+    <td>Incompatibilidad de jueces y equipos</td>
+    <td>Existe al menos una incompatibilidad de juez a equipo</td>
+  </tr>
+
+
+<tr class="principal-incorrecto">
+    <td>Principal no recomendado</td>
+    <td>El juez principal tiene menos puntuación que alguno de los secundarios</td>
+  </tr>
+
+</table>
 
 <br>
 
 
-<div class="warning"> 
-
-⚠️
-
-Puede haber casos muy concretos en los que sí o sí haya incompatibilidades (como cuando se trata de un torneo interno). En dicho caso, simplemente intenta modificarlos hasta que consigas los enfrentamientos que más se adecúen a tus necesidades.
-
-</div>
-
-#### Eliminar jueces
+### Eliminar jueces
 
 Es posible que haya jueces que en principio dijesen que estarían disponibles para una determinada ronda, pero que al final por diversas circunstancias no hayan podido estar presente en la misma.
 
@@ -159,3 +211,29 @@ En tales casos, existe la posibilidad de eliminarlo de la tabla de enfrentamient
 En caso contrario (que necesites a un juez que no se encuentra), simplemente búscalo en la tabla de jueces, marca en disponibilidades la ronda deseada, y vuelve a generar los enfrentamientos. Ahora debería estar presente.
 
 </div>
+
+### Confirmar enfrentamientos
+
+Una vez estemos conformes con el resultado deseado, simplemente debemos darle click al botón que dice "Generar enfrentamientos".
+
+<div class="warning"> 
+
+⚠️ Si hay al menos una incompatibilidad, el botón estará en naranja en vez de azul. Aún así, es posible generarlos, así que no te preocupes.
+
+Puede haber casos muy concretos en los que sí o sí haya incompatibilidades (como cuando se trata de un torneo interno). En dicho caso, simplemente intenta modificarlos hasta que consigas los enfrentamientos que más se adecúen a tus necesidades.
+
+</div>
+
+![Primera ronda generada satisfactoriamente](_images/primera_ronda_generada.png)
+
+<div class="caption">Primera ronda generada satisfactoriamente</div>
+
+<br>
+
+<div class="tip">
+💡
+Si hay un cambio de última hora y debes modificar los enfrentamientos una vez han sido generados, recuerda que puedes simplemente reiniciar la ronda actual desde el menú de configuración y volver a comenzar el proceso.
+
+</div>
+
+¡Ahora que se han generado los enfrentamientos, simplemente resta insertar los debates de la ronda actual!

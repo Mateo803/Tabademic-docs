@@ -47,7 +47,7 @@ Simplemente cambia lo que consideres, dale click en "Guardar", y los cambios deb
 
 <div class="warning">
 
-⚠️Ten mucho cuidado al modificar debates, ya que si alteras el equipo ganador o los ítems, esto tendrá un impacto directo en la clasificación global del torneo.
+⚠️ Ten mucho cuidado al modificar debates, ya que si alteras el equipo ganador o los ítems, esto tendrá un impacto directo en la clasificación global del torneo.
 
 </div>
 
@@ -57,12 +57,7 @@ La última columna de cada tabla contendrá un icono de una papelerita. Simpleme
 
 <div class="warning">
 
-⚠️
-
-Los datos tienen una jerarquía, de tal manera que no es posible por ejemplo borrar un equipo si sus oradores aún se encuentran insertados.
-
-<br>
-<br>
+⚠️ Los datos tienen una jerarquía, de tal manera que no es posible por ejemplo borrar un equipo si sus oradores aún se encuentran insertados.
 
 En cada caso específico vendrá un mensaje de error advirtiendo el por qué no se ha podido efectuar el borrado.
 

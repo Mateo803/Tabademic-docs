@@ -1,6 +1,6 @@
-project = "tabademic"
+project = "Tabademic"
 
-author = "Mateo Hernández Vélez"
+author = "Mathieu Hernández Vélez"
 
 copyright = "2023, Mateo Hernández Vélez"
 

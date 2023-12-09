@@ -21,3 +21,50 @@
     height: 300px;
 
 }
+
+table, th, td {
+    border: 1px solid black;
+  }
+
+tr td:first-child {
+
+    text-align: center;
+
+}
+
+
+.no-principal {
+
+    background-color: #ffbdd6;
+
+}
+
+.incompatibilidad-club {
+
+    background-color: #fdf9c4;
+    
+}
+
+.juzgado-anteriormente {
+
+    background-color: #bdf4cd;
+    
+}
+
+.incompatibilidad-jueces {
+
+    background-color: #c26cdf;
+    
+}
+
+.incompatibilidad-jueces-equipos {
+
+    background-color: #c8e4b2;
+    
+}
+
+.principal-incorrecto {
+
+    background-color: #cce5ff;
+    
+}

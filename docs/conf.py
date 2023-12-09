@@ -1,4 +1,4 @@
-project = "tabademic"
+project = "Tabademic"
 
 author = "Mathieu Hernández Vélez"
 

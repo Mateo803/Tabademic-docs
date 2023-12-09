@@ -2,7 +2,7 @@ project = "Tabademic"
 
 author = "Mathieu Hernández Vélez"
 
-copyright = "2023, Mateo Hernández Vélez"
+copyright = "2023, Mathieu Hernández Vélez"
 
 language = "es"
 

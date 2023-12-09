@@ -5,12 +5,11 @@ Manual de usuario de Tabademic
 
 .. raw:: html
 
-    <div style="display: flex; justify-content: center; margin-bottom: 1.5rem;">
+    <div class="centered-image" style="margin-bottom: 1.5rem;">
 
-        <img src="https://raw.githubusercontent.com/Mateo803/Tabademic-docs/main/docs/source/_images/logo.png?sanitize=true" width="300px" height="300px">
+    <img src="../../source/_images/logo.png" width="300px" height="300px">
 
     </div>
-
 
 Tabademic es un software de tabulación **enfocado exclusivamente en debate académico**, cuya principal finalidad es la de facilitar en la mayor medida de lo posible la tabulación de este tipo de competiciones.
 

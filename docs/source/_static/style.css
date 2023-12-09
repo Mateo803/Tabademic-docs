@@ -22,6 +22,13 @@
 
 }
 
+[alt=Yo] {
+
+    width: 300px;
+    height: 300px;
+
+}
+
 table, th, td {
     border: 1px solid black;
   }

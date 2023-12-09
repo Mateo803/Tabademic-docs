@@ -236,4 +236,4 @@ Si hay un cambio de última hora y debes modificar los enfrentamientos una vez h
 
 </div>
 
-¡Ahora que se han generado los enfrentamientos, simplemente resta insertar los debates de la ronda actual!
+¡Ahora que se han generado los enfrentamientos, simplemente resta esperar a que se terminen los debates e insertarlos!

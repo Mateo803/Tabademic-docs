@@ -1,8 +1,8 @@
 # Quién está detrás de Tabademic
 
-<div style="display: flex; justify-content: center; margin-bottom: 1.5rem;">
+<div class="centered-image">
 
-<img src="https://raw.githubusercontent.com/Mateo803/Tabademic-docs/main/docs/source/_images/yo.jpg?sanitize=true" width=300px height=300px>
+![Yo](_images/yo.jpg)
 
 </div>
 

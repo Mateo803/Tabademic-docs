@@ -35,4 +35,5 @@ Para ello cuenta (entre otras muchas cosas) con las siguientes funcionalidades:
    generacion_enfrentamientos
    Debates <debates>
    resultados
+   Cómo probar la aplicación <probar_tabademic>
    Desarrollador <desarrollador>

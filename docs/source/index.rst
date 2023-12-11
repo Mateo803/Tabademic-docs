@@ -7,7 +7,7 @@ Manual de usuario de Tabademic
 
     <div class="centered-image" style="margin-bottom: 1.5rem;">
 
-    <img src="_images/logo.png" width="300px" height="300px">
+    <img src="https://raw.githubusercontent.com/Mateo803/Tabademic-docs/main/docs/source/_images/logo.png" width="300px" height="300px">
 
     </div>
 

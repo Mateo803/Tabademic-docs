@@ -24,10 +24,15 @@ Para ello cuenta (entre otras muchas cosas) con las siguientes funcionalidades:
 * Calcular la clasificación en tiempo real de los equipos y las menciones de los oradores
 
 
+------------------------------
+Índice
+------------------------------
+
 .. toctree::
    primeros_pasos
    manipular_datos
    datos
    generacion_enfrentamientos
    Debates <debates>
+   resultados
    Desarrollador <desarrollador>

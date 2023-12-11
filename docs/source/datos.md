@@ -99,7 +99,7 @@ Esta entidad muestra todos los clubes presentes en el torneo, incluyendo además
 
 ## Equipos
 
-Para registrar a un equipo basta con introducir el nombre del equipo y el club al que pertenece.
+Para insertar un equipo basta con introducir el nombre del equipo y el club al que pertenece.
 
 <div class="centered-image">
 
@@ -111,13 +111,6 @@ Para registrar a un equipo basta con introducir el nombre del equipo y el club a
 
 <br>
 
-
-<div class="tip">
-💡
-También es posible permitir a los participantes que registren ellos mismos el equipo. Ver <span style="font-weight: bold;">Registro de equipos</span>
-</div>
-
-<br>
 
 ![Equipos](_images/equipos.png)
 
@@ -165,7 +158,7 @@ Nuevamente se puede cambiar a voluntad la disponibilidad de cada orador.
 
 ## Capitanes
 
-Esta entidad, al igual que en el caso de los clubes, no puede ser insertada directamente, ya que únicamente muestra los capitanes de cada uno de los equipos registrados hasta ahora.
+Esta entidad, al igual que en el caso de los clubes, no puede ser insertada directamente, ya que únicamente muestra los capitanes de cada uno de los equipos insertados hasta ahora.
 
 Su utilidad radica en que es posible ver directamente la información de contacto de cada capitán, lo cual puede ser especialmente útil por si se desea enviar un **correo al equipo** o se desea crear el clásico **grupo de capitanes** de Whatsapp.
 
@@ -266,5 +259,69 @@ Similar a la entidad anterior, solo que esta vez el segundo desplegable se refie
 
 </div>
 
+## Registro de equipos y de oradores
+
+Hasta ahora hemos visto cómo insertar de forma manual una gran cantidad de entidades. Sin embargo, es posible permitir que los propios equipos y jueces se registren automáticamente.
+
+### Registro de equipos
+
+Por regla general, para saber qué equipos se van a inscribir a un torneo, se recurre a un formulario de Google. Tabademic cuenta con su propio formulario de registro de equipos (y sus respectivos participantes).
+
+Para ello, basta con publicar el siguiente link: **https://personal-4ude2rxh.outsystemscloud.com/NombreTorneo/RegistroEquipos**, y los equipos podrán registrarse satisfactoriamente.
+
+El mismo contiene la misma información mostrada anteriormente (nombre del equipo, club, nombre de cada orador, etc.).
+
+La novedad reside en que al final del mismo, el equipo en su conjunto podrá registrarse en la aplicación, de tal manera que pueda (en caso de desearlo) modificar el nombre del equipo o de alguno de sus integrantes.
+
+<div class="centered-image">
+
+![Equipo registrándose](_images/registro_equipo.png)
+
+</div>
+
+<div class="caption">Equipo registrándose (versión móvil)</div>
+
+<br>
+
+Una vez hecho el registro, tanto el equipo en cuestión como todos sus integrantes se encontrarán insertados en la aplicación.
+
+![Equipo registrado](_images/equipo_registrado.png)
+
+<div class="caption">Equipo insertado con sus respectivos oradores</div>
+
+<br>
+
+### Registro de jueces
+
+De igual forma, existe un formulario para que los jueces puedan registrarse. Todos los campos son similares a los expuestos anteriormente (exceptuando la puntuación, claro está).
+
+La URL es la siguiente: **https://personal-4ude2rxh.outsystemscloud.com/NombreTorneo/RegistroJueces**
+
+<div class="centered-image">
+    
+![Juez registrándose](_images/registro_juez.png)
+
+</div>
+
+<div class="caption">Juez registrándose (versión móvil)</div>
+
+<br>
+
+<div class="centered-image">
+
+![Juez registrado](_images/juez_registrado.png)
+
+</div>
+
+
+<div class="caption">Juez insertado satisfactoriamente</div>
+
+<br>
+
+<div class="tip">
+💡
+La puntuación por defecto de cualquier juez insertado de esta forma será 1.
+
+</div>
 
 Una vez vistos todas las entidades, ¡ya es hora de generar los enfrentamientos!

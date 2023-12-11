@@ -26,7 +26,7 @@ De manera resumida, estos son los pasos a seguir:
 
 1. Insertar los debates de la ronda actual (excepto si nos encontramos en la ronda inicial).
 
-2. Generar los enfrentamientos de la siguiente.
+2. Generar los enfrentamientos de la siguiente (y confirmarlos en caso de que sean los jueces quienes los inserten).
 
 3. Volver al paso 1.
 
@@ -44,7 +44,13 @@ Esto dependerá de la ronda en cuestión.
 
 ### Rondas clasificatorias
 
-La primera de forma totalmente aleatoria, mientras que el resto mediante el método suizo.
+La primera de forma totalmente **aleatoria**, mientras que el resto mediante el **método suizo**.
+
+<div class="tip">
+💡
+El método suizo que aplica Tabademic consiste en ordenar a los equipos de mejor a peor y hacer que se enfrenten el primero contra el segundo, el tercero contra el cuarto...
+
+</div>
 
 ### Rondas finales
 

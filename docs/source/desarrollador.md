@@ -11,13 +11,12 @@
 
 ## Vida personal
 
-Soy colombiano, pero donde he vivido la mayor parte de mi vida ha sido en Córdoba. Estudié ingeniería informática en la UCO, y actualmente trabajo para un banco británico como desarrollador web.
-
-## Mundo del debate
+Estudié ingeniería informática en la Universidad de Córdoba, y actualmente trabajo como desarrollador web.
 
 Entré al mundo del debate en el instituto, y desde entonces me ha apasionado todo lo relacionado con la comunicación, la oratoria y el pensamiento crítico.
 
 Pertenezco al club de debate CDU desde que entré a primero de carrera, allá por el 2018 (aunque actualmente debato de manera muy esporádica, principalmente BP).
+
 
 ## Cómo surgió todo
 
@@ -28,12 +27,6 @@ Aunque me pusieron buena nota, no era todavía algo aplicable a torneos reales, 
 Así que se me ocurrió crear una aplicación web que aprovechase dicha base de datos para poder manipular la información de los torneos de la manera más intuitiva posible.
 
 Ya han pasado 2 años desde entonces (y puedo asegurar que la aplicación aún sigue y probablemente seguirá siempre en desarrollo), pero ver la evolución que ha tenido desde una mera base de datos hasta un programa totalmente funcional es algo que me llena de muchísima ilusión.
-
-## Qué espero de todo esto
-
-Del mismo modo que Tabbycat es el estándar indiscutible cuando hablamos del mundo del BP, mi idea es que poco a poco Tabademic logre lo mismo, pero en el formato académico.
-
-Sé que será una tarea compleja, pero espero que poquito a poquito Tabademic haga parte de más y más torneos, de tal forma que les ayude lo máximo posible en temas organizativos, y así pueda devolverle un poquito todo lo que el mundo del debate ha hecho por mí.
 
 ## Contacto
 

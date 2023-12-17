@@ -8,15 +8,24 @@ En dicha página será posible ver qué jueces estarán disponibles en cada rond
 
 <div class="centered-image">
 
-![Jueces primera ronda](_images/jueces_primera_ronda.png)
+![Jueces primera ronda](_images/entidad_disponibilidades.png)
 
 </div>
 
 <div class="caption">
 
-Jueces disponibles para la primera ronda
+Algunos jueces de la primera ronda
 
 </div>
+
+<br>
+
+<div class="tip">
+💡
+También es posible insertar o borrar disponibilidades desde esta entidad.
+
+</div>
+
 
 ## Flujo
 

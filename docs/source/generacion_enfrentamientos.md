@@ -1,6 +1,6 @@
 # Generación de enfrentamientos
 
-## Prerrequisitos
+## Disponibilidad de jueces
 
 Además de **haber insertado todos los datos mostrados previamente**, es recomendable echarle un vistazo a la **disponibilidad de los jueces** (la cual se encuentra bajo la pestaña de Debates).
 

@@ -39,6 +39,8 @@ En ella, podremos configurar los siguientes aspectos del torneo:
 
 * ¿Es un sistema todos contra todos?
 
+* ¿Se emplearán votos en vez de ítems en las rondas finales?
+
 Además, en la parte inferior de la página se encuentran los siguientes botones:
 
 * **Guardar cambios** -> Guarda la configuración.

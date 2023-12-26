@@ -4,7 +4,7 @@
 
 Además de **haber insertado todos los datos mostrados previamente**, es recomendable echarle un vistazo a la **disponibilidad de los jueces** (la cual se encuentra bajo la pestaña de Debates).
 
-En dicha página será posible ver qué jueces estarán disponibles en cada ronda, facilitando así el saber quiénes juzgarán la siguiente ronda.
+En dicha página será posible ver qué jueces estarán disponibles en cada ronda, facilitando así el saber quiénes juzgarán la siguiente.
 
 <div class="centered-image">
 
@@ -22,14 +22,16 @@ Algunos jueces de la primera ronda
 
 <div class="tip">
 💡
-También es posible insertar o borrar disponibilidades desde esta entidad.
+Es posible que haya jueces que en principio dijesen que estarían disponibles para una determinada ronda, pero que al final por diversas circunstancias no hayan podido estar presente en la misma (o viceversa).
+
+En tales casos, existe la posibilidad de <span style="font-weight: bold;">eliminar o incluir</span> dicha disponibilidad desde esta misma entidad.
 
 </div>
 
 
 ## Flujo
 
-Cuando hablamos de generar enfrentamientos, nos referimos a los de la siguiente ronda. Esto se podrá hacer únicamente si hemos insertado todos los debates de la ronda actual (exceptuando el caso en el que acabemos de empezar el torneo, ya que podremos generar directamente los de la primera ronda).
+Cuando hablamos de generar enfrentamientos, nos referimos a los de la siguiente ronda. Esto se podrá hacer únicamente si hemos insertado todos los debates de la ronda actual (exceptuando el caso en el que acabemos de empezar el torneo, donde es posible generar directamente los de la primera ronda).
 
 De manera resumida, estos son los pasos a seguir:
 
@@ -69,7 +71,7 @@ En las siguientes, se enfrentan únicamente aquellos equipos que han ganado en l
 
 <div class="warning"> 
 
-⚠️ Esto únicamente determina qué equipos se enfrentarán en cada debate. Las posturas que tendrán cada uno vendrán determinadas por el número de AF y EC que ha debatido cada equipo hasta el momento, de tal manera que exista un equilibrio en dicho sentido (exceptuando la primera ronda y las rondas finales, donde se determinará al azar).
+⚠️ Esto únicamente determina qué equipos se enfrentarán en cada debate. Las posturas que tendrán cada uno vendrán determinadas por el número de AF y EC que ha debatido cada equipo hasta el momento, de tal manera que exista un equilibrio en dicho sentido (exceptuando la primera ronda y las rondas finales, donde se determinará <span style="font-weight:bold">al azar</span>).
 
 </div>
 
@@ -96,7 +98,7 @@ Para comenzar, simplemente habrá que darle click a la página del mismo nombre,
 
 <br>
 
-Si todo ha salido correctamente, se mostrará un pequeño mensaje confirmando que todo ha ido bien y posteriormente la tabla con los enfrentamientos en cuestión.
+Si todos los datos se han insertado correctamente, aparecerá un breve mensaje confirmando que todo ha ido bien, seguido de la tabla con los enfrentamientos correspondientes.
 
 ![Enfrentamientos](_images/enfrentamientos.png)
 
@@ -127,36 +129,36 @@ La operación de drag and drop (o arrastrar y soltar en castellano) permite real
 
 A continuación se detallarán sus principales usos.
 
-### Modificar enfrentamientos
+### Modificar equipos
 
 Podemos alterar qué equipos se enfrentan entre sí (o simplemente cambiar las posturas AF y EC).
 
 <div class="warning"> 
 
-⚠️ Se recomienda realizar esta acción únicamente en la primera ronda o en casos muy concretos, ya que se podría alterar tanto el sistema suizo como la generación de rondas finales.
+⚠️ Se recomienda realizar esta acción <span style="font-weight: bold">únicamente en la primera ronda o en casos muy concretos</span>, ya que se podría alterar tanto el sistema suizo como la generación de rondas finales.
 
 </div>
 
 ### Modificar jueces
 
 
-Tabademic asigna los jueces de acuerdo a dos criterios:
+Tabademic asigna por defecto los jueces de cada sala de acuerdo a los siguientes criterios:
 
 * Puntuación, siendo los mejores los principales, y el resto secundarios.
 
 * Incompatibilidades, tratando que no haya ninguna.
 
-En caso de que queramos modificarlos, basta con arrastrar un principal a un secundario, o viceversa.
+En caso de que deseemos modificar esta configuración, basta con arrastrar y soltar el juez deseado a la celda correspondiente.
 
 <div class="tip">
 💡
-También puedes añadir un secundario a una sala. Simplemente debes arrastrarlo hasta el borde inferior de la celda en cuestión.
+Puedes añadir todos los secundarios que quieras a una determinada sala. Simplemente debes arrastrarlo hasta el borde inferior de la celda en cuestión.
 
 </div>
 
-Cada vez que se arrastra un juez de una celda a otra, se comprueba que no haya ninguna incompatibilidad tanto en la sala de origen como de destino (en caso de un desplazamiento horizontal, ambos coincidirán).
+Cada vez que se arrastra un juez de una celda a otra, se comprueba si existe alguna incompatibilidad tanto en la sala de origen como de destino (en caso de un desplazamiento horizontal, ambos coincidirán).
 
-En caso de haber una, la celda en cuestión cambiará de color, indicando que existe una determinada incompatibilidad.
+En caso de haber una, la celda en cuestión cambiará al color representante de dicha incompatibilidad.
 
 ![Ejemplo de incompatibilidad](_images/incompatibilidad.png)
 
@@ -164,7 +166,7 @@ En caso de haber una, la celda en cuestión cambiará de color, indicando que ex
 
 <br>
 
-### Lista de incompatibilidades
+#### Lista de incompatibilidades
 
 La siguiente tabla detalla todas las incompatibilidades que puede haber a la hora de generar enfrentamientos, con su color correspondiente y una pequeña descripción.
 
@@ -215,19 +217,10 @@ La siguiente tabla detalla todas las incompatibilidades que puede haber a la hor
 
 ### Eliminar jueces
 
-Es posible que haya jueces que en principio dijesen que estarían disponibles para una determinada ronda, pero que al final por diversas circunstancias no hayan podido estar presente en la misma.
-
-En tales casos, existe la posibilidad de eliminarlo de la tabla de enfrentamientos, simplemente arrastrándolo a la pepelerita que se encuentra en la esquina superior derecha, impidiendo así que juzgue ningún enfrentamiento de la ronda actual.
+En caso de que hayamos pasado por alto alguna disponibilidad, también es posible eliminarla en esta página simplemente arrastrando el juez deseado a la pepelerita que se encuentra en la esquina superior derecha, impidiendo así que juzgue ningún enfrentamiento de la ronda actual.
 
 
-
-<div class="tip">
-💡
-En caso contrario (que necesites a un juez que no se encuentra), simplemente búscalo en la tabla de jueces, marca en disponibilidades la ronda deseada, y vuelve a generar los enfrentamientos. Ahora debería estar presente.
-
-</div>
-
-### Confirmar enfrentamientos
+## Confirmar enfrentamientos
 
 Una vez estemos conformes con el resultado deseado, simplemente debemos darle click al botón que dice "Generar enfrentamientos".
 

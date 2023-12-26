@@ -227,7 +227,7 @@ Además de las incompatibilidades entre clubes (ya sean actual como antiguos), e
 
 ### Entre jueces
 
-Para añadir este tipo de incompatibilidad, simplemente basta con seleccionar en el primer desplegable el juez en cuestión, y en el segundo la incompatibilidad en sí.
+Para incluir este tipo de incompatibilidad, simplemente basta con seleccionar en el primer desplegable el juez en cuestión, y en el segundo la incompatibilidad en sí.
 
 ![Incompatibilidad entre jueces](_images/incompatibilidad_jueces.png)
 

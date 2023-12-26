@@ -142,4 +142,4 @@ Habiendo hecho esto, podremos observar cómo la acta de dicho debate se encuentr
 
 <br>
 
-Una vez hayan sido **insertadas y confirmadas** todas las salas de la ronda actual, se podrán generar las de la siguiente.
+Una vez hayan sido **insertados y confirmados** todos los enfrentamientos de la ronda actual, se podrán generar los de la siguiente.

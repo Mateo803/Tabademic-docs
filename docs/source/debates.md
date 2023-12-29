@@ -4,7 +4,9 @@ Existen dos formas, de manera directa o a través de los jueces.
 
 ## Inserción directa
 
-Esta es la opción recomendada en caso de que no se desee crear cuentas para los jueces y pedirles a estos que inserten sus respectivos debates. Simplemente hay que dirigirse a la página `actas` y darle click a "Insertar acta".
+Esta es la opción recomendada en caso de que no se desee que los jueces rellenen ellos mismos las actas.
+
+Para empezar, simplemente hay que dirigirse a la página `actas` y darle click a "Insertar acta".
 
 Una vez hecho esto, y después de esperar unos segundos, aparecerá un desplegable con todas las salas donde se han realizado los debates de la ronda actual. (la cual se encarga de obtener los equipos a debatir en función de la sala especificada).
 
@@ -84,9 +86,9 @@ Además, al haber sido insertada por el tabulador, el debate aparece automática
 
 ## Inserción a través de los jueces
 
-Como ya se mencionó anteriormente, los jueces pueden registrarse en la aplicación, de tal forma que tengan una cuenta con rol de juez.
+Como ya se mencionó anteriormente, los jueces acceder a la aplicación a través de su URL privada, permitiéndoles de esta forma el poder insertar las actas correspondientes a los diferentes debates que vayan juzgando a lo largo del torneo.
 
-Iniciando sesión y dándole click en insetar debate, aparecerá directamente la sala que les toca juzgar (sin posibilidad de poder insertar otra) con los mismos formularios mostrados arriba.
+Cuando un juez inserta un acta, aparece directamente la sala correspondiente al debate que juzga en la ronda actual (sin posibilidad por tanto de poder seleccionar otra). El resto es exactamente igual a como si la insertase el tabulador directamente.
 
 <div class="centered-image">
 

@@ -2,7 +2,7 @@
 
 ## Disponibilidad de jueces
 
-Además de **haber insertado todos los datos mostrados previamente**, es recomendable echarle un vistazo a la **disponibilidad de los jueces** (la cual se encuentra bajo la pestaña de Debates).
+Siempre que se vayan a generar los enfrentamientos de una ronda, es muy recomendable echarle un vistazo a la **disponibilidad de los jueces** (la cual se encuentra bajo la pestaña de `Debates`).
 
 En dicha página será posible ver qué jueces estarán disponibles en cada ronda, facilitando así el saber quiénes juzgarán la siguiente.
 
@@ -24,7 +24,7 @@ Algunos jueces de la primera ronda
 💡
 Es posible que haya jueces que en principio dijesen que estarían disponibles para una determinada ronda, pero que al final por diversas circunstancias no hayan podido estar presente en la misma (o viceversa).
 
-En tales casos, existe la posibilidad de <span style="font-weight: bold;">eliminar o incluir</span> dicha disponibilidad desde esta misma entidad.
+En tales casos, existe la posibilidad de  <span class="bold">eliminar o incluir</span> dicha disponibilidad desde esta misma entidad.
 
 </div>
 
@@ -71,34 +71,16 @@ En las siguientes, se enfrentan únicamente aquellos equipos que han ganado en l
 
 <div class="warning"> 
 
-⚠️ Esto únicamente determina qué equipos se enfrentarán en cada debate. Las posturas que tendrán cada uno vendrán determinadas por el número de AF y EC que ha debatido cada equipo hasta el momento, de tal manera que exista un equilibrio en dicho sentido (exceptuando la primera ronda y las rondas finales, donde se determinará <span style="font-weight:bold">al azar</span>).
+⚠️ La generación de enfrentamientos únicamente tiene en cuenta qué equipos se enfrentarán en cada debate. Las posturas de cada uno vendrán determinadas por el número de debates AF y EC que haya debatido cada equipo hasta el momento, de tal manera que exista un equilibrio en dicho sentido (exceptuando en la primera ronda y en las rondas finales, donde las posturas se determinarán  <span class="bold">al azar</span>).
 
 </div>
 
 ## Cómo se generan
 
 
-Para comenzar, simplemente habrá que darle click a la página del mismo nombre, la cual se encuentra bajo la pestaña `Debates`. Una vez hecho esto, aparecerá un icono de carga indicándonos que se están comprobando todos los datos del torneo y evitar así que haya algún problema a posteriori.
+Para comenzar, simplemente habrá que darle click a `Generar enfrentamientos`, la cual se encuentra bajo la pestaña `Debates`. Una vez hecho esto, el programa comenzará a comprobar que todos los datos están debidamente insertados (apareciendo un icono de espera mientras dura el proceso).
 
-![Comprobación de datos](_images/comprobacion_generacion_enfrentamientos.png)
-
-<div class="caption">Pantalla de carga</div>
-
-<br>
-
-<div class="warning"> 
-
-⚠️ Si aparece algún mensaje de error tras la comprobación de datos, no te preocupes en absoluto. Simplemente léelo atentamente para saber qué ha salido mal y cómo se puede solucionar.
-
-</div>
-
-![Error generación de enfrentamientos](_images/error_generacion_enfrentamientos.png)
-
-<div class="caption">Ejemplo de error</div>
-
-<br>
-
-Si todos los datos se han insertado correctamente, aparecerá un breve mensaje confirmando que todo ha ido bien, seguido de la tabla con los enfrentamientos correspondientes.
+Si todo ha salido bien, aparecerá un breve mensaje de confirmación, seguido de la tabla con los enfrentamientos correspondientes a la siguiente ronda.
 
 ![Enfrentamientos](_images/enfrentamientos.png)
 
@@ -121,7 +103,7 @@ Esta contiene a todos los equipos y jueces marcados como disponibles para la sig
 * Los jueces secundarios (que en caso de no haber se mostraría una celda vacía)
 
 
-Cabe aclarar que estos enfrentamientos **no tienen por qué ser definitivos**, siendo únicamente los que Tabademic ha considerado adecuados en base a su programación. Es por tanto posible modificarlos mediante **drag and drop**.
+Cabe aclarar que estos enfrentamientos **no tienen por qué ser definitivos**, siendo únicamente los que Tabademic ha considerado más adecuados en base a su algoritmo de generación de enfrentamientos (el cual se explicó en dellate anteriormente) y a la puntuación asignada a cada juez (siendo los N mejores principales, y el resto secundarios). Es por tanto posible modificarlos mediante **drag and drop**.
 
 ## Drag and drop
 
@@ -135,7 +117,7 @@ Podemos alterar qué equipos se enfrentan entre sí (o simplemente cambiar las p
 
 <div class="warning"> 
 
-⚠️ Se recomienda realizar esta acción <span style="font-weight: bold">únicamente en la primera ronda o en casos muy concretos</span>, ya que se podría alterar tanto el sistema suizo como la generación de rondas finales.
+⚠️ Se recomienda realizar esta acción <span class="bold">únicamente en la primera ronda o en casos muy concretos</span>, ya que se podría alterar tanto el sistema suizo como la generación de rondas finales.
 
 </div>
 
@@ -222,7 +204,14 @@ En caso de que hayamos pasado por alto alguna disponibilidad, también es posibl
 
 ## Confirmar enfrentamientos
 
-Una vez estemos conformes con el resultado deseado, simplemente debemos darle click al botón que dice "Generar enfrentamientos".
+Una vez estemos conformes con el resultado deseado, simplemente debemos darle click al botón que dice "Generar enfrentamientos". Una vez hecho esto, se descargará automáticamente un fichero éxcel con los enfrentamientos que acabamos de confirmar, de tal forma que los podamos tener a mano fácilmente de cara al anuncio de los mismos.
+
+
+![Éxcel con los enfrentamientos de la primera ronda](_images/excel_primera_ronda.png)
+
+<div class="caption">Éxcel con los enfrentamientos de la primera ronda</div>
+
+<br>
 
 <div class="warning"> 
 
@@ -232,16 +221,10 @@ Puede haber casos muy concretos en los que sí o sí haya incompatibilidades (co
 
 </div>
 
-![Primera ronda generada satisfactoriamente](_images/primera_ronda_generada.png)
-
-<div class="caption">Primera ronda generada satisfactoriamente</div>
-
-<br>
-
 <div class="tip">
 💡
-Si hay un cambio de última hora y debes modificar los enfrentamientos una vez han sido generados, recuerda que puedes simplemente reiniciar la ronda actual desde el menú de configuración y volver a comenzar el proceso.
+Si hay un cambio de última hora y debes modificar los enfrentamientos una vez estos ya han sido generados, no te preocupes. Simplemente reinicia la ronda actual desde el menú de configuración y vuelve a empezar el proceso, pero esta vez con los enfrentamientos deseados.
 
 </div>
 
-¡Ahora que se han generado los enfrentamientos, simplemente resta esperar a que se terminen los debates e insertarlos!
+¡Ahora que se han generado los enfrentamientos, simplemente queda esperar a que los debates terminen para poder insertar sus respectivas actas!

@@ -1,11 +1,16 @@
 # Resultados
 
-En la pestaña del mismo nombre podremos obtener resultados de diferente índole, los cuales se actualizan **en tiempo real cada vez que un debate es insertado**.
+En este apartado podremos ver información muy útil referente al torneo. Concretamente:
+
+* Clasificación
+* Menciones de oradores
+* Porcentaje de victorias AF/EC
+* Feedbacks entre jueces
+* Feedbacks de equipos a jueces
 
 <div class="warning">
 
-⚠️ Dicha actualización ocurrirá únicamente en las **rondas clasificatorias**. Si quieres que también se incluyan las rondas finales, contacta con el desarrollador.
-
+⚠️ Los 3 primeros se actualizan en tiempo real cada vez que un acta es insertada, aunque solo en las **rondas clasificatorias**. Si quieres que también se incluyan en las rondas finales, contacta con el desarrollador.
 
 </div>
 
@@ -41,45 +46,43 @@ información:
 * Media de ítems
 
 
-
 ![Ejemplo de clasificación](_images/clasificacion.png)
 
-<div class="caption">11 primeros equipos de la clasificación</div>
+<div class="caption">10 primeros equipos de la clasificación</div>
 
 <br>
 
-Como se puede observar, el único debate insertado fue el que enfrentaba a  Loyola 2 y Dilema 2 (de ahí que aparezcan los primeros, ya que son los únicos que tienen ítems hasta ahora).
+Como únicamente hemos insertado 2 actas hasta ahora, los 4 equipos participantes de estas son los que ostentan las primeras posiciones. A medida que se inserten más y más debates, la clasificación irá tomando cada vez más forma, hasta que se llegue a la última ronda final, donde se podrá ver claramente qué equipos pasan a la siguiente fase.
 
-A medida que se inserten más y más debates, la clasificación irá tomando cada vez más forma, hasta que se llegue a la última ronda final, donde se podrá ver claramente qué equipos pasan a la siguiente fase.
 
 <div class="tip">
 💡
-Si quieres, puedes descargarla en formato excel dándole click derecho a la primera celda y luego en Export => to Excel.
+Si quieres, puedes descargarla en formato Excel dándole click derecho a la primera celda y luego en Export => to Excel.
 
 </div>
 
-Además, en caso de que se desee, es posible liberar la clasificación a los equipos **(a través de una URL de la forma https://personal-4ude2rxh.outsystemscloud.com/NombreTorneo/ClasificacionPublica)**.
+Además, en caso de que se desee, es posible liberar la clasificación a los equipos a través de una URL de la forma **https://personal-4ude2rxh.outsystemscloud.com/NombreTorneo/ClasificacionPublica**
 
 Para ello, basta con darle click al botón "Actualizar clasificación pública".
 
 
 <div class="tip">
 
-💡 La clasificación pública será exactamente igual al momento de la liberación. Si se desea actualizar (ya que se ha avanzado de ronda, por ejemplo), basta con volverle darle click al botón.
+💡 Si deseas actualizarla (ya que se ha avanzado de ronda, por ejemplo), basta con volverle darle click al botón.
 
 </div>
 
 
 <div class="warning">
 
-⚠️ Si deseas ocultar la clasificación (ya sea porque la liberaste sin querer o por cualquier otro motivo), simplemente dale click en "Liberar clasificación pública"
+⚠️ Si deseas ocultar la clasificación (ya sea porque la liberaste sin querer o por cualquier otro motivo), simplemente dale click en "Ocultar clasificación pública".
 
 
 </div>
 
 ## Menciones de oradores
 
-Como su nombre indica, es posible observar por cada orador, las diferentes menciones que este ha tenido en cada rol. Para ello, se cuenta con una tabla similar a la de clasificación (la cual también puede ser descargada a formato excel de la misma forma).
+Como su nombre indica, es posible ver por cada orador las diferentes menciones que este ha tenido en cada rol a lo largo de las rondas clasificatorias. Para ello, se cuenta con una tabla similar a la de clasificación (la cual también puede ser descargada a formato Excel de la misma forma).
 
 
 <div class="tip">
@@ -93,8 +96,6 @@ Para ordenar los oradores por mención, basta con darle doble click a la celda c
 <div class="caption">Oradores ordenados por mejor orador</div>
 
 <br>
-
-Como se puede apreciar, la primera posición la ostenta Sandra Rojo, la cual fue la mejor oradora del único debate insertado hasta el momento. De igual forma que con la clasificación, a medida que se inserten más debates, las menciones de oradores irán actualizándose progresivamente.
 
 <div class="warning">
 
@@ -115,20 +116,49 @@ Es un gráfico circular donde la sección azul corresponde a las victorias a fav
 
 </div>
 
-<div class="caption">Gráfico</div>
+
+<div class="caption">Gráfico equilibrado ya que ambas posturas han ganado exactamente una vez</div>
 
 <br>
 
-Como solo ha habido un debate insertado, el cual ha ganado la postura a favor, el gráfico es enteramente azul.
 
-<div class="centered-image">
 
-![Porcentaje equilibrado](_images/porcentaje_equilibrado.png)
+
+## Feedbacks entre jueces
+
+Una vez un juez haya enviado un acta, este podrá enviar feedback a su principal (en caso de ser secundario) o a todos sus principales (en caso de ser principal).
+
+Nosotros podremos ver dichos feedbacks mediante una tabla ordenada por ronda.
+
+![Feedback de jueces](_images/feedback_jueces.png)
+
+
+<div class="caption">Ejemplo de feedbacks de una sala</div>
+
+<br>
+
+
+
+## Feedbacks entre jueces y equipos
+
+Del mismo modo, los equipos pueden valorar al juez principal de su sala. Dicha información vendrá recogida en una tabla similar a la anterior.
+
+
+![Feedback de equipos](_images/feedback_equipos.png)
+
+<div>
+
+<div class="caption">Ejemplo de feedback de un equipo a su juez principal</div>
+
+<br>
 
 </div>
 
 
-<div class="caption">Porcentaje equilibrado después de insertar un acta en cuyo debate ha ganado la postura en contra</div>
 
-<br>
+<div class="warning">
 
+⚠️ Por el momento, **ningún juez puede ver los feedbacks que se le han hecho** (ya vengan de otros jueces o de los equipos a los que ha juzgado). Si deseas esta característica, contacta por favor con el desarrollador.
+
+
+</div>

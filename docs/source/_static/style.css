@@ -15,6 +15,11 @@
 
 }
 
+.bold {
+
+    font-weight: bold;
+}
+
 [alt=Logo] {
 
     width: 300px;
@@ -22,7 +27,7 @@
 
 }
 
-[alt=Yo] {
+[alt=Desarrollador] {
 
     width: 300px;
     height: 300px;

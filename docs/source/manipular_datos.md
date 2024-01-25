@@ -19,7 +19,7 @@ Dicha tabla solo contiene una porción de los datos. Para ver el resto, simpleme
 
 ![Ejemplo de visualización](_images/ejemplo_visualizacion.png)
 
-<div class="caption"> Ejemplo de las salas del torneo</div>
+<div class="caption"> Ejemplo de salas</div>
 
 
 ## Inserción ✏️
@@ -35,6 +35,8 @@ Una vez hayas rellenado el formulario, simplemente dale click en "Guardar" para 
 <div class="warning">
 
 ⚠️Ten en cuenta que hay campos que no se pueden repetir, ya que de lo contrario la aplicación no puede diferenciarlos. Por ejemplo, si ya existe una sala denominada 'Sala', no podrás insertar otra llamada igual.
+
+Lo mismo ocurre con los jueces (ya que de lo contrario no habría forma de diferenciarlos al generar los enfrentamientos o ver los feedbacks).
 
 </div>
 
@@ -63,7 +65,11 @@ En cada caso específico vendrá un mensaje de error advirtiendo el por qué no 
 
 </div>
 
+<div class="centered-image">
+
 ![Ejemplo de error de borrado](_images/ejemplo_error_borrado.png)
+
+</div>
 
 <div class="caption">Ejemplo de error al internar borrar un equipo con sus integrantes aún insertados</div>
 

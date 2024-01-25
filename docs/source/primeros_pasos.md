@@ -2,15 +2,15 @@
 
 ## Solicitar la creación del torneo
 
-Tabademic no require de ningún tipo de instalación, ya que toda su funcionalidad se encuentra disponible **en la web**. Sin embargo, cada torneo debe
-de ser creado de antemano por el desarrollador del programa. Sus datos de contacto los puedes encontrar en la sección **desarrollador**.
+Tabademic no require de ningún tipo de instalación, ya que toda su funcionalidad se encuentra **alojada en la web**. Sin embargo, cada torneo debe
+de ser creado de antemano por el desarrollador del programa. Sus datos de contacto los puedes encontrar [aquí](desarrollador.md).
 
-Una vez creado el torneo, recibirás la URL del torneo, un usuario y una contraseña, con los que podrás comenzar a utilizar Tabademic sin ningún tipo de conocimientos técnicos.
+Una vez se haya creado el torneo, recibirás la URL del mismo, un usuario y una contraseña, con los que podrás comenzar a utilizar la aplicación sin ningún tipo de conocimientos técnicos.
 
 <div class="warning"> 
 
-⚠️ El usuario previamente mencionado tiene <span style="font-weight: bold">rol de tabulador </span>, el cual tiene acceso de lectura/escritura a absolutamente todos los datos del torneo.
-Asegúrate por favor de no compartir la contraseña con nadie. <span style="font-weight: bold">En caso de una brecha de seguridad, contacta inmediatamente con el desarollador.</span>
+⚠️ El usuario previamente mencionado tiene  <span class="bold">rol de tabulador </span>, el cual tiene acceso de lectura/escritura a absolutamente todos los datos del torneo.
+Asegúrate por favor de no compartir la contraseña con nadie.  <span class="bold">En caso de una brecha de seguridad, contacta inmediatamente con el desarollador.</span>
 </div>
 
 ## Iniciar sesión 🔑
@@ -23,17 +23,13 @@ Simplemente debes iniciar sesión con el usuario y contraseña obtenidos en el p
 
 ## Configurar el torneo ⚙️
 
-Tabademic cuenta con diversas opciones de configuración, de tal forma que pueda adaptarse a diferentes tipos de torneos.
+Tabademic cuenta con diversas opciones de configuración, de tal forma que pueda adaptarse a las necesidades de cada torneo en particular.
 
-En ella, podremos configurar los siguientes aspectos del torneo:
+En ella podremos configurar los siguientes parámetros, divididos en 3 categorías:
 
-* El nombre
-
-* El número de equipos
+### Datos del torneo
 
 * Valor mínimo y máximo de ítems
-
-* Qué menciones de oradores se tendrán en cuenta
 
 * ¿Es un torneo interno?
 
@@ -41,19 +37,27 @@ En ella, podremos configurar los siguientes aspectos del torneo:
 
 * ¿Se emplearán votos en vez de ítems en las rondas finales?
 
-Además, en la parte inferior de la página se encuentran los siguientes botones:
+### Menciones
 
-* **Guardar cambios** -> Guarda la configuración.
+De tal forma que a la hora de rellenar actas solo aparezan las seleccionadas en este apartado.
 
-* **Insertar datos de prueba** --> Pensada para jugar con la aplicación sin tener que haber insertado previamente los datos reales del torneo.
+### Ronda actual
 
-* **Eliminar todos los datos del torneo** --> Muy útil queremos eliminar los datos de prueba y comenzar a insertar datos reales.
+* Reiniciarla, es decir, eliminar todas las actas de la ronda actual y volver a la ronda anterior. Suele recomendarse su uso únicamente en caso de que se hayan generado los enfrentamientos de una ronda de manera incorrecta y se necesiten volver a generar.
 
-* **Reiniciar ronda actual** --> Elimina todos los debates de la ronda actual y decrece en 1 la ronda actual. Suele emplearse en caso de que se haya generado una ronda de manera incorrecta, de tal forma que se pueda generar nuevamente.
+* Liberarla a los jueces, permitiendo de esta manera que puedan enviar actas (y deshacer la liberación en caso de que deseemos hacerlo).
 
 <div class="warning"> 
 
-⚠️ Pulsar en reitaradas ocasiones el botón de reiniciar ronda actual hará que se vayan eliminando una ronda tras otra del torneo. Utilizar con sumo cuidado.
+⚠️ Pulsar de manera continuada el botón de reiniciar ronda actual hará que se vayan eliminando una ronda tras otra del torneo. <span class="bold">Utilizar con sumo cuidado.</span>
 </div>
 
+Además, es posible encontrar los siguientes dos botones:
+
+* **Guardar cambios** -> Guarda la configuración.
+
+* **Eliminar todos los datos del torneo** --> Muy útil en caso de que queramos eliminar los datos de prueba y comenzar a insertar los reales.
+
 ![Ejemplo de configuración](_images/menu_configuracion.png)
+
+<div class="caption">Ejemplo de configuración</div>

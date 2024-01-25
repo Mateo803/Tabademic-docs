@@ -2,14 +2,14 @@
 
 <div class="centered-image">
 
-![Yo](_images/yo.jpg)
+![Desarrollador](_images/yo.jpg)
 
 </div>
 
 ¡Hola, muy buenas! Me llamo Mateo Hernández, y os contaré un poco sobre mí.
 
 
-## Vida personal
+## Datos personales
 
 Estudié ingeniería informática en la Universidad de Córdoba, y actualmente trabajo como desarrollador web.
 
@@ -22,7 +22,7 @@ Pertenezco al club de debate CDU desde que entré a primero de carrera, allá po
 
 La idea de crear Tabademic surgió en una asignatura optativa en donde se nos pedía que diseñáramos una base de datos de lo que quisiéramos. Ya había ayudado un poco en la tabulación de algún que otro nacional de CDU, y recordaba que era algo tedioso tener que registrar toda la información que requiere un torneo (oradores, jueces, debates, equipos, etc.). Así que se me ocurrió hacerlo de debate, más que nada como experimento y ver qué podía salir (spoiler, no salió demasiado bien).
 
-Aunque me pusieron buena nota, no era todavía algo aplicable a torneos reales, ya que había que manipular directamente la base de datos (algo sumamente farragoso que no resultaba siendo mejor que el excel de toda la vida).
+Aunque me pusieron buena nota, no era todavía algo aplicable a torneos reales, ya que había que manipular directamente la base de datos (algo sumamente farragoso que no resultaba siendo mejor que el éxcel de toda la vida).
 
 Así que se me ocurrió crear una aplicación web que aprovechase dicha base de datos para poder manipular la información de los torneos de la manera más intuitiva posible.
 

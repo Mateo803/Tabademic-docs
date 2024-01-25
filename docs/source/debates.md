@@ -1,14 +1,14 @@
 # Cómo insertar los debates de cada ronda
 
-Existen dos formas, de manera directa o a través de los jueces.
+Existen dos formas: de manera directa o a través de los jueces.
 
 ## Inserción directa
 
 Esta es la opción recomendada en caso de que no se desee que los jueces rellenen ellos mismos las actas.
 
-Para empezar, simplemente hay que dirigirse a la página `actas` y darle click a "Insertar acta".
+Para empezar, simplemente hay que dirigirse a la página `Actas de la ronda actual` y darle click a `Insertar acta`.
 
-Una vez hecho esto, y después de esperar unos segundos, aparecerá un desplegable con todas las salas donde se han realizado los debates de la ronda actual. (la cual se encarga de obtener los equipos a debatir en función de la sala especificada).
+Una vez hecho esto, y después de esperar unos segundos, aparecerá un desplegable con todas las salas de los enfrentamientos de la ronda actual.
 
 <div class="centered-image">
 
@@ -36,9 +36,19 @@ Una vez selecciones una sala, se cargarán los datos asociada a esta:
 
 * Oradores de ambos equipos
 
-![Ejemplo de acta](_images/acta.png)
+Ahora lo único que resta es rellenar los diferentes formularios en base a la hoja de ítems de cada sala.
 
-<div class="caption">Ejemplo de acta</div>
+![Acta de la primera sala](_images/acta.png)
+
+<div class="caption">Acta de la primera sala</div>
+
+<br>
+
+<div class="warning">
+
+⚠️ Como se puede apreciar, el acta no es una réplica de la hoja de ítems, sino que se deriva de esta. Por lo tanto, en caso de que sean los jueces quienes envíen las actas digitales y veas alguna disparidad, <span class="bold"> guíate siempre por lo que ponga la hoja de ítems.</span>
+
+</div>
 
 <br>
 
@@ -47,22 +57,6 @@ Una vez selecciones una sala, se cargarán los datos asociada a esta:
 Si te has equivocado de sala, siempre puedes volver a seleccionar otra utilizando el desplegable.
 
 </div>
-
-
-Ahora lo único que resta es rellenar los datos en base a la hoja de ítems de cada sala.
-
-<div class="warning">
-
-⚠️ Como se puede apreciar, el acta no es una réplica de la hoja de ítems, sino que se deriva de esta.
-
-Por lo tanto, en caso de que sean los jueces quienes envíen las actas digitales, y veas alguna disparidad, guíate siempre por lo que ponga la hoja de ítems.
-
-
-</div>
-
-![Acta rellenada](_images/acta_rellenada.png)
-
-<div class="caption">Acta anterior rellenada</div>
 
 <br>
 
@@ -86,9 +80,9 @@ Además, al haber sido insertada por el tabulador, el debate aparece automática
 
 ## Inserción a través de los jueces
 
-Como ya se mencionó anteriormente, los jueces acceder a la aplicación a través de su URL privada, permitiéndoles de esta forma el poder insertar las actas correspondientes a los diferentes debates que vayan juzgando a lo largo del torneo.
+Como ya se mencionó anteriormente, los jueces también pueden insertar actas a través de su correspondiente URL privada.
 
-Cuando un juez inserta un acta, aparece directamente la sala correspondiente al debate que juzga en la ronda actual (sin posibilidad por tanto de poder seleccionar otra). El resto es exactamente igual a como si la insertase el tabulador directamente.
+En dicho caso, aparece automáticamente la sala correspondiente al debate que acaba de juzgar (sin posibilidad de elegir otra, claro está).
 
 <div class="centered-image">
 
@@ -96,22 +90,22 @@ Cuando un juez inserta un acta, aparece directamente la sala correspondiente al 
 
 </div>
 
-<div class="caption">Acta de juez (vista de móvil)</div>
+<div class="caption">Acta de la segunda sala insertada por un juez (vista móvil)</div>
 
 <br>
 
-Una vez el acta ha sido rellenada y enviada, tendrán que esperar hasta que se genere la siguiente ronda donde tienen disponibilidad para insertar el siguiente debate.
+Una vez el acta haya sido rellenada y enviada, los jueces tendrán que esperar a que se generen los enfrentamientos de la próxima ronda en la que estén disponibles, de tal forma que les pueda aparecer la sala correspondiente al debate que acaban de juzgar.
 
 
 <div class="centered-image">
 
-![Debate insertado por el juez](_images/fila_acta_juez.png)
+![Acta enviada por el juez](_images/fila_acta_juez.png)
 
 </div>
 
 <br>
 
-<div class="caption">Debate insertado por el juez (aún no confirmado)</div>
+<div class="caption">Acta enviada por el juez (aún no confirmada)</div>
 
 <br>
 
@@ -119,16 +113,18 @@ Como puede apreciarse, el acta todavía no ha sido confirmada por parte del tabu
 
 ## Cómo confirmar un acta
 
-Simplemente debemos darle click a la sala, donde veremos el formulario con los datos rellenados por el juez. Una vez hayamos comprobado que todos los datos son correctos, bastará con presionar el botón de confirmar debate y posteriormente darle click al pop-up que aparecerá a continuación.
+Simplemente debemos darle click a la sala del acta que deseamos confirmar. Una vez hecho esto, veremos los diferentes formularios los datos rellenados por el juez.
+
+Una vez hayamos comprobado que coincide con la acta física, bastará con presionar el botón de confirmar debate.
 
 
-![Botón de confirmación de acta](_images/confirmar_acta.png)
+![Acta preparada para ser confirmada](_images/confirmar_acta.png)
 
 </div>
 
 <br>
 
-<div class="caption">Botón de confirmación de acta</div>
+<div class="caption">Acta anterior preparada para ser confirmada</div>
 
 <br>
 
@@ -144,4 +140,18 @@ Habiendo hecho esto, podremos observar cómo la acta de dicho debate se encuentr
 
 <br>
 
-Una vez hayan sido **insertados y confirmados** todos los enfrentamientos de la ronda actual, se podrán generar los de la siguiente.
+Una vez hayan sido **enviadas y confirmadas** todas las actas de la ronda actual, será posible generar los de la siguiente.
+
+<div class="tip">
+💡
+Para no tener que estar recargando la página continuamente una vez los jueces estén enviando las actas, es posible utilizar el botón de refrescar acta, el cual se encuentra en la parte inferior derecha de la tabla.
+
+</div>
+
+<br>
+
+![Tabla con las actas previamente insertadas jubto con el botón de refrescar actas](_images/boton_refrescar_actas.png)
+
+</div>
+
+<div class="caption">Tabla con las actas previamente insertadas junto con el botón de refrescar actas</div>

@@ -148,6 +148,8 @@ En caso de haber una, la celda en cuestión cambiará al color representante de 
 
 <br>
 
+<br>
+
 #### Lista de incompatibilidades
 
 La siguiente tabla detalla todas las incompatibilidades que puede haber a la hora de generar enfrentamientos, con su color correspondiente y una pequeña descripción.
@@ -166,7 +168,8 @@ La siguiente tabla detalla todas las incompatibilidades que puede haber a la hor
   
   <tr class="incompatibilidad-club">
     <td>Incompatibilidad de club</td>
-    <td>Al menos uno de los jueces pertenece al mismo club (actual o antiguo) de al menos uno de los dos equipos</td>
+    <td>Al menos uno de los equipos pertenece al mismo club de al menos uno de los jueces y/o existe al menos una incompatibilidad
+    de tipo juez-club</td>
   </tr>
 
 <tr class="juzgado-anteriormente">

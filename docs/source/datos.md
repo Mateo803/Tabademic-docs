@@ -18,6 +18,8 @@ Estas son las entidades que han de insertarse para poder comenzar a tabular cual
 
 * Incompatibilidades entre jueces y equipos (en caso de haber)
 
+* Incompatibilidades entre jueces y clubes (en caso de haber)
+
 <div class="tip">
 💡
 Puedes acceder a cada uno de ellas desde la barra lateral, expandiendo <span class="bold">datos del torneo.</span>
@@ -614,9 +616,10 @@ Del mismo modo que con los equipos, es posible cambiar la disponibilidad de cada
 
 Esta entidad representa a todos los jueces que juzgarán al menos un debate a lo largo de todo el torneo. A continuación se presentarán los 3 principales datos con los que debe contar cada juez (además de su nombre, claro está).
 
-###  Clubes
+###  Club
 
-Es posible indicar el club al que juez pertenece en la actualidad **(club actual)**, además de los clubes en los cuales estuvo en el pasado **(clubes antiguos)** (en caso de haber, claro está). Todo ello para poder controlar las incompatibilidades de tipo club.
+El club al que pertenece actualmente el juez. En caso de haber pertenecido a otros en el pasado, es recomendable incluirlos en sus incompatibilidades con otros clubes.
+
 
 ### Disponibilidades
 
@@ -673,11 +676,13 @@ Esta le permitirá modificar sus disponibilidades, rellenar las actas de los deb
 
 ## Incompatibilidades
 
-Además de las incompatibilidades entre clubes (ya sea el actual o los antiguos), es posible especificar dos tipos de incompatibilidades extra:
+Tabademic permite incluir los siguientes tipos de incompatibilidades:
 
 * Entre jueces
 
 * Entre jueces y equipos
+
+* Entre jueces y clubes
 
 ### Entre jueces
 
@@ -719,6 +724,22 @@ Similar a la entidad anterior, solo que esta vez el segundo desplegable se refie
 
 
 </div>
+
+<br>
+
+### Entre jueces y clubes
+
+Además del propio club, es posible indicar para cada juez con qué otros clubes tiene incompatibilidad, de tal forma que no pueda juzgar ningún equipo que pertenezca a dichas instituciones.
+
+La forma de insertarlos es similar a las dos anteriores, teniendo un desplegable con el juez en cuestión y otro con el club.
+
+<div class="warning">
+
+⚠️ Solamente se mostrarán los clubes de los equipos insertados (de tal forma que no se pueda elegir uno que no tenga relación con ningún equipo del torneo).
+
+</div>
+
+<br>
 
 
 ## Importar datos

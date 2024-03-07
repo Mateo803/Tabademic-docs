@@ -10,7 +10,7 @@ En este apartado podremos ver información muy útil referente al torneo. Concre
 
 <div class="warning">
 
-⚠️ Los 3 primeros se actualizan en tiempo real cada vez que un acta es insertada, aunque solo en las **rondas clasificatorias**. Si quieres que también se incluyan en las rondas finales, contacta con el desarrollador.
+⚠️ Los 3 primeros se actualizan en tiempo real cada vez que **un acta es confirmada**, aunque solo en las **rondas clasificatorias**. Si quieres que también se incluyan en las rondas finales, contacta con el desarrollador.
 
 </div>
 
@@ -48,7 +48,7 @@ información:
 
 ![Ejemplo de clasificación](_images/clasificacion.png)
 
-<div class="caption">10 primeros equipos de la clasificación</div>
+<div class="caption">Clasificación actual después de las 2 actas anteriores</div>
 
 <br>
 
@@ -122,20 +122,13 @@ Es un gráfico circular donde la sección azul corresponde a las victorias a fav
 <br>
 
 
-
-
 ## Feedbacks entre jueces
 
-Una vez un juez haya enviado un acta, este podrá enviar feedback a su principal (en caso de ser secundario) o a todos sus principales (en caso de ser principal).
+Una vez un juez haya enviado un acta, este podrá enviar feedback a (en caso de ser secundario) o a todos sus principales (en caso de ser principal).
 
-Nosotros podremos ver dichos feedbacks mediante una tabla ordenada por ronda.
+En `Feedbacks de jueces` podremos verlos mediante una tabla ordenada por ronda.
 
 ![Feedback de jueces](_images/feedback_jueces.png)
-
-
-<div class="caption">Ejemplo de feedbacks de una sala</div>
-
-<br>
 
 
 
@@ -143,18 +136,13 @@ Nosotros podremos ver dichos feedbacks mediante una tabla ordenada por ronda.
 
 Del mismo modo, los equipos pueden valorar al juez principal de su sala. Dicha información vendrá recogida en una tabla similar a la anterior.
 
+Podemos verlos en `Feedbacks de equipos`
 
 ![Feedback de equipos](_images/feedback_equipos.png)
 
 <div>
 
-<div class="caption">Ejemplo de feedback de un equipo a su juez principal</div>
-
-<br>
-
 </div>
-
-
 
 <div class="warning">
 

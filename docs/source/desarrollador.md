@@ -6,10 +6,8 @@
 
 </div>
 
-¡Hola, muy buenas! Me llamo Mateo Hernández, y os contaré un poco sobre mí.
 
-
-## Datos personales
+¡Hola, muy buenas! Me llamo Mateo, y os contaré un poco sobre mí.
 
 Estudié ingeniería informática en la Universidad de Córdoba, y actualmente trabajo como desarrollador web.
 

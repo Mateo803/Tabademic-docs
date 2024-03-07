@@ -8,7 +8,7 @@ En dicha página será posible ver qué jueces estarán disponibles en cada rond
 
 <div class="centered-image">
 
-![Jueces primera ronda](_images/entidad_disponibilidades.png)
+![Jueces primera ronda](_images/disponibilidades.png)
 
 </div>
 
@@ -35,9 +35,9 @@ Cuando hablamos de generar enfrentamientos, nos referimos a los de la siguiente 
 
 De manera resumida, estos son los pasos a seguir:
 
-1. Insertar los debates de la ronda actual (excepto si nos encontramos en la ronda inicial).
+1. Insertar y confirmar las actas de los debates de la ronda actual.
 
-2. Generar los enfrentamientos de la siguiente (y confirmarlos en caso de que sean los jueces quienes los inserten).
+2. Generar los enfrentamientos de la siguiente
 
 3. Volver al paso 1.
 
@@ -117,7 +117,7 @@ Podemos alterar qué equipos se enfrentan entre sí (o simplemente cambiar las p
 
 <div class="warning"> 
 
-⚠️ Se recomienda realizar esta acción <span class="bold">únicamente en la primera ronda o en casos muy concretos</span>, ya que se podría alterar tanto el sistema suizo como la generación de rondas finales.
+⚠️ Se recomienda realizar esta acción <span class="bold">únicamente en casos muy concretos</span>, ya que se podría alterar tanto el sistema suizo como la generación de rondas finales.
 
 </div>
 
@@ -226,7 +226,7 @@ Puede haber casos muy concretos en los que sí o sí haya incompatibilidades (co
 
 <div class="tip">
 💡
-Si hay un cambio de última hora y debes modificar los enfrentamientos una vez estos ya han sido generados, no te preocupes. Simplemente reinicia la ronda actual desde el menú de configuración y vuelve a empezar el proceso, pero esta vez con los enfrentamientos deseados.
+Si ha habido un cambio de última hora que te fuerza a modificar los enfrentamientos de una ronda, no te preocupes. Simplemente vuelve a la anterior desde el menú de configuración y genéralos de nuevo.
 
 </div>
 

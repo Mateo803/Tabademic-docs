@@ -31,7 +31,7 @@ Para ello cuenta (entre otras muchas cosas) con las siguientes funcionalidades:
    manipular_datos
    datos
    generacion_enfrentamientos
-   Debates <debates>
+   Actas <actas>
    resultados
    Cómo probar la aplicación <probar_tabademic>
    Desarrollador <desarrollador>

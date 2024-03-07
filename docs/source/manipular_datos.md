@@ -17,9 +17,7 @@ Cada vez que le des click a una entidad, aparecerá una tabla con la informació
 
 Dicha tabla solo contiene una porción de los datos. Para ver el resto, simplemente debes darle click a la flecha de la parte inferior derecha (similar a cuando buscas algo en Google), permitiendo así cargar las siguientes filas.
 
-![Ejemplo de visualización](_images/ejemplo_visualizacion.png)
-
-<div class="caption"> Ejemplo de salas</div>
+![Ejemplo de visualización](_images/salas.png)
 
 
 ## Inserción ✏️
@@ -71,7 +69,6 @@ En cada caso específico vendrá un mensaje de error advirtiendo el por qué no 
 
 </div>
 
-<div class="caption">Ejemplo de error al internar borrar un equipo con sus integrantes aún insertados</div>
 
 <br>
 

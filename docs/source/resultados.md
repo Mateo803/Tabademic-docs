@@ -1,106 +1,12 @@
 # Resultados
 
-En este apartado podremos ver información muy útil referente al torneo. Concretamente:
+A medida que nuestro torneo vaya tomando forma, es interesante saber cómo van las cosas. Es por ello que en este apartado es posible obtener una gran cantidad de información del mismo.
 
-* Clasificación
-* Menciones de oradores
-* Porcentaje de victorias AF/EC
-* Feedbacks entre jueces
-* Feedbacks de equipos a jueces
+Por un lado se encuentra un **gráfico con los porcentajes de victorias AF/EC** (la cual es muy útil para saber el grado de sesgo que ha llegado a tener la pregunta) y por otro, la posibilidad de descargar un **fichero éxcel con todas las rondas hasta ahora, la clasificación actual y las menciones de oradores**.
 
 <div class="warning">
 
-⚠️ Los 3 primeros se actualizan en tiempo real cada vez que **un acta es confirmada**, aunque solo en las **rondas clasificatorias**. Si quieres que también se incluyan en las rondas finales, contacta con el desarrollador.
-
-</div>
-
-## Clasificación
-
-La cual se basa en el siguiente criterio:
-
-* Número de victorias
-
-* Enfrentamiento directo
-
-* Ítems
-
-<div class="tip">
-💡
-Si necesitas otro criterio (o incluso más campos para las actas), contacta con el desarrollador.
-
-</div>
-
-Esta consiste en una tabla con los equipos ordenados desde la primera posición hasta la última, donde cada fila contiene la siguiente 
-información:
-
-* Posición
-
-* Equipo
-
-* Puntuación en cada ronda
-
-* Número de victorias
-
-* Ítems totales
-
-* Media de ítems
-
-
-![Ejemplo de clasificación](_images/clasificacion.png)
-
-<div class="caption">Clasificación actual después de las 2 actas anteriores</div>
-
-<br>
-
-Como únicamente hemos insertado 2 actas hasta ahora, los 4 equipos participantes de estas son los que ostentan las primeras posiciones. A medida que se inserten más y más debates, la clasificación irá tomando cada vez más forma, hasta que se llegue a la última ronda final, donde se podrá ver claramente qué equipos pasan a la siguiente fase.
-
-
-<div class="tip">
-💡
-Si quieres, puedes descargarla en formato Excel dándole click derecho a la primera celda y luego en Export => to Excel.
-
-</div>
-
-Además, en caso de que se desee, es posible liberar la clasificación a los equipos a través de una URL de la forma **https://personal-4ude2rxh.outsystemscloud.com/NombreTorneo/ClasificacionPublica**
-
-Para ello, basta con darle click al botón "Actualizar clasificación pública".
-
-
-<div class="tip">
-
-💡 Si deseas actualizarla (ya que se ha avanzado de ronda, por ejemplo), basta con volverle darle click al botón.
-
-</div>
-
-
-<div class="warning">
-
-⚠️ Si deseas ocultar la clasificación (ya sea porque la liberaste sin querer o por cualquier otro motivo), simplemente dale click en "Ocultar clasificación pública".
-
-
-</div>
-
-## Menciones de oradores
-
-Como su nombre indica, es posible ver por cada orador las diferentes menciones que este ha tenido en cada rol a lo largo de las rondas clasificatorias. Para ello, se cuenta con una tabla similar a la de clasificación (la cual también puede ser descargada a formato Excel de la misma forma).
-
-
-<div class="tip">
-💡
-Para ordenar los oradores por mención, basta con darle doble click a la celda con el nombre de la mención deseada. 
-
-</div>
-
-![Mejores oradores](_images/mejores_oradores.png)
-
-<div class="caption">Oradores ordenados por mejor orador</div>
-
-<br>
-
-<div class="warning">
-
-⚠️ No es posible liberar las menciones de los oradores. Aún así, en caso de que se desee, se puede descargar la tabla en formato Excel y enviarla a quien se considere oportuno.
-
+⚠️ Dicha información se actualiza automáticamente cada vez que **se envía un acta**, aunque únicamente en las **rondas clasificatorias**. Si quieres que también se incluyan en las rondas finales, contacta con el desarrollador.
 
 </div>
 
@@ -122,31 +28,10 @@ Es un gráfico circular donde la sección azul corresponde a las victorias a fav
 <br>
 
 
-## Feedbacks entre jueces
+## Éxcel
 
-Una vez un juez haya enviado un acta, este podrá enviar feedback a (en caso de ser secundario) o a todos sus principales (en caso de ser principal).
+Su estructura es muy sencilla, siendo las primeras hojas las rondas que han acontecido hasta ahora, y las dos últimas la clasificación y las menciones de oradores.
 
-En `Feedbacks de jueces` podremos verlos mediante una tabla ordenada por ronda.
+[Aquí](_static/Resultados.xlsx) tienes el fichero correspondiente a los dos debates que se han insertado en el apartado anterior.
 
-![Feedback de jueces](_images/feedback_jueces.png)
-
-
-
-## Feedbacks entre jueces y equipos
-
-Del mismo modo, los equipos pueden valorar al juez principal de su sala. Dicha información vendrá recogida en una tabla similar a la anterior.
-
-Podemos verlos en `Feedbacks de equipos`
-
-![Feedback de equipos](_images/feedback_equipos.png)
-
-<div>
-
-</div>
-
-<div class="warning">
-
-⚠️ Por el momento, **ningún juez puede ver los feedbacks que se le han hecho** (ya vengan de otros jueces o de los equipos a los que ha juzgado). Si deseas esta característica, contacta por favor con el desarrollador.
-
-
-</div>
+Una vez estén insertadas todas las actas de las rondas clasificatorias, podrás saber perfectamente qué equipos pasan a la siguiente fase, además de conocer todas las menciones de oradores 🤩

@@ -35,7 +35,7 @@ En ella podremos configurar los siguientes parámetros, divididos en 3 categorí
 
 * ¿Es un torneo interno?
 
-* ¿Es un sistema todos contra todos?
+* ¿Se enfrentan todos los equipos entre sí? Útil en torneos pequeños, como por ejemplo en internos
 
 * ¿Se permite el que los jueces modifiquen sus propias disponibilidades?
 

@@ -151,6 +151,10 @@ Estos son los clubes que soporta actualmente Tabademic (**si necesitas incluir a
             <td>Club Debate Compostela</td>
         </tr>
         <tr>
+            <td>CDH</td>
+            <td>Club de Debate Hispalense</td>
+        </tr>
+        <tr>
             <td>CDU</td>
             <td>Córdoba Debate Universitario</td>
         </tr>
@@ -523,10 +527,6 @@ Estos son los clubes que soporta actualmente Tabademic (**si necesitas incluir a
             <td>Aula de Debate de la Universitat Rovira i Virgili</td>
         </tr>
         <tr>
-            <td>US</td>
-            <td>Club de Debate de la Universidad de Sevilla</td>
-        </tr>
-        <tr>
             <td>USJ</td>
             <td>Club de Debate de la Universidad San Jorge</td>
         </tr>
@@ -759,6 +759,12 @@ Del mismo modo que antes, podemos importar los equipos e integrantes del torneo 
 * Quinto integrante
 
 ![Éxcel con los equipos a importar](_images/excel_importacion_equipos.png)
+
+<div class="warning">
+
+⚠️ Cada equipo tiene que estar **conformado por al menos 2 integrantes**, por lo que el tercer,cuarto y quinto integrante pueden estar en blanco.
+
+</div>
 
 
 <br>

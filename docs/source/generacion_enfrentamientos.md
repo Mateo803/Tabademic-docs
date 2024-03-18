@@ -57,11 +57,26 @@ Esto dependerá de la ronda en cuestión.
 
 La primera de forma totalmente **aleatoria**, mientras que el resto mediante el **método suizo**.
 
-<div class="tip">
-💡
+#### Método suizo y criterios de clasificación
+
 El método suizo que aplica Tabademic consiste en ordenar a los equipos de mejor a peor y hacer que se enfrenten el primero contra el segundo, el tercero contra el cuarto...
 
+Dicho ordenamiento (es decir, la clasificación) se calcula atendiendo a los siguientes criterios:
+
+* Número de victorias
+
+* Enfrentamiento directo
+
+* Votos (en caso de no haber se pasan a los ítems)
+
+* Ítems
+
+<div class="tip">
+💡
+Si tu torneo utiliza un criterio diferente, contacta por favor con el desarrollador.
+
 </div>
+
 
 ### Rondas finales
 
@@ -100,7 +115,7 @@ Esta contiene a todos los equipos y jueces marcados como disponibles para la sig
 
 * El juez principal
 
-* Los jueces secundarios (que en caso de no haber se mostraría una celda vacía)
+* Los jueces secundarios (en caso de haber)
 
 
 Cabe aclarar que estos enfrentamientos **no tienen por qué ser definitivos**, siendo únicamente los que Tabademic ha considerado más adecuados en base a su algoritmo de generación de enfrentamientos (el cual se explicó en dellate anteriormente) y a la puntuación asignada a cada juez (siendo los N mejores principales, y el resto secundarios). Es por tanto posible modificarlos mediante **drag and drop**.
@@ -128,7 +143,7 @@ Tabademic asigna por defecto los jueces de cada sala de acuerdo a los siguientes
 
 * Puntuación, siendo los mejores los principales, y el resto secundarios.
 
-* Incompatibilidades, tratando que no haya ninguna.
+* Restricciones (entre los que se encuentran diversos tipos de incompatibilidades), tratando que no haya ninguna.
 
 En caso de que deseemos modificar esta configuración, basta con arrastrar y soltar el juez deseado a la celda correspondiente.
 
@@ -138,9 +153,9 @@ Puedes añadir todos los secundarios que quieras a una determinada sala. Simplem
 
 </div>
 
-Cada vez que se arrastra un juez de una celda a otra, se comprueba si existe alguna incompatibilidad tanto en la sala de origen como de destino (en caso de un desplazamiento horizontal, ambos coincidirán).
+Cada vez que se arrastra un juez de una celda a otra, se comprueba si existe alguna restricción tanto en la sala de origen como de destino (en caso de un desplazamiento horizontal, ambos coincidirán).
 
-En caso de haber una, la celda en cuestión cambiará al color representante de dicha incompatibilidad.
+En caso de haber una, aparecerá un icono en la última columna en el que, al posar el ratón sobre el mismo, mostrará la restricción en cuestión (o una lista en caso de tratarse de más de una). 
 
 ![Ejemplo de incompatibilidad](_images/incompatibilidad.png)
 
@@ -150,54 +165,21 @@ En caso de haber una, la celda en cuestión cambiará al color representante de 
 
 <br>
 
-#### Lista de incompatibilidades
+#### Tipos de restricciones
 
-La siguiente tabla detalla todas las incompatibilidades que puede haber a la hora de generar enfrentamientos, con su color correspondiente y una pequeña descripción.
+La siguiente lista contiene todas las restricciones que Tabademic tiene en cuenta a la hora de generar los enfrentamientos (además del sistema suizo, como ya se comentó anteriormente):
 
-<table>
+* Que no haya un juez principal en una determinada sala.
 
-  <tr>
-    <th>Incompatibilidad</th>
-    <th>Descripción</th>
-  </tr>
+* Que el juez principal no sea el que tenga mayor puntuación en su sala.
 
-  <tr class="no-principal">
-    <td>No hay principal</td>
-    <td> El enfrentamiento en cuestión no cuenta con ningún juez principal</td>
-  </tr>
-  
-  <tr class="incompatibilidad-club">
-    <td>Incompatibilidad de club</td>
-    <td>Al menos uno de los equipos pertenece al mismo club de al menos uno de los jueces y/o existe al menos una incompatibilidad
-    de tipo juez-club</td>
-  </tr>
+* Que un equipo haya sido juzgado anteriormente (ya sea en la última ronda del juez o en cualquier otra)
 
-<tr class="juzgado-anteriormente">
-    <td>Equipo juzgado anteriormente</td>
-    <td>Al menos uno de ambos equipos ha sido previamente juzgado por al menos uno de los jueces</td>
-  </tr>
+* Incompatibilidad de club, el cual puede darse ya sea porque el juez pertenece al mismo club del equipo, o porque se ha especificado en el apartado de `Incompatibilidades entre jueces y clubes`.
 
+* Incompatibilidad entre jueces
 
-<tr class="incompatibilidad-jueces">
-    <td style="background-color: #c26cdf;">Incompatibilidad de jueces</td>
-    <td>Existe al menos una incompatibilidad entre 2 jueces</td>
-  </tr>
-
-
-<tr class="incompatibilidad-jueces-equipos">
-    <td>Incompatibilidad de jueces y equipos</td>
-    <td>Existe al menos una incompatibilidad de juez a equipo</td>
-  </tr>
-
-
-<tr class="principal-incorrecto">
-    <td>Principal no recomendado</td>
-    <td>El juez principal tiene menos puntuación que alguno de los secundarios</td>
-  </tr>
-
-</table>
-
-<br>
+* Incompatibilidad entre un juez y un equipo en específico
 
 
 ### Eliminar jueces
@@ -218,9 +200,9 @@ Una vez estemos conformes con el resultado deseado, simplemente debemos darle cl
 
 <div class="warning"> 
 
-⚠️ Si hay al menos una incompatibilidad, el botón estará en naranja en vez de azul. Aún así, es posible generarlos, así que no te preocupes.
+⚠️ Si hay al menos una restricción, el botón estará en naranja en vez de azul. Aún así, es posible generarlos, así que no te preocupes.
 
-Puede haber casos muy concretos en los que sí o sí haya incompatibilidades (como cuando se trata de un torneo interno). En dicho caso, simplemente intenta modificarlos hasta que consigas los enfrentamientos que más se adecúen a tus necesidades.
+Puede haber casos muy concretos en los que sí o sí haya restricciones (como cuando se trata de un torneo interno en el que no es posible evitar en alguna sala incompatibilidad de club). En dicho caso, simplemente intenta modificarlos hasta que consigas los enfrentamientos que más se adecúen a tus necesidades.
 
 </div>
 

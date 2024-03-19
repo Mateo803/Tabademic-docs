@@ -103,6 +103,12 @@ Si todo ha salido bien, aparecerá un breve mensaje de confirmación, seguido de
 
 <br>
 
+<div class="tip"> 
+
+💡 Exceptuando la primera ronda y las finales, los enfrentamientos vendrán ordenados de **top a bottom room**, aunque una vez se generen, se reordenarán para que los equipos no puedan intuir la clasificación.
+</div>
+
+
 ## Tabla de enfrentamientos
 
 Esta contiene a todos los equipos y jueces marcados como disponibles para la siguiente ronda, indicándonos un enfrentamiento por cada fila con los siguientes detalles:
@@ -132,12 +138,11 @@ Podemos alterar qué equipos se enfrentan entre sí (o simplemente cambiar las p
 
 <div class="warning"> 
 
-⚠️ Se recomienda realizar esta acción <span class="bold">únicamente en casos muy concretos</span>, ya que se podría alterar tanto el sistema suizo como la generación de rondas finales.
+⚠️ Se recomienda realizar esta acción <span class="bold">únicamente en casos muy concretos</span>, ya que se podría alterar el sistema suizo.
 
 </div>
 
 ### Modificar jueces
-
 
 Tabademic asigna por defecto los jueces de cada sala de acuerdo a los siguientes criterios:
 

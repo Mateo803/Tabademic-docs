@@ -28,11 +28,11 @@ Para ello cuenta (entre otras muchas cosas) con las siguientes funcionalidades:
 
 .. toctree::
    primeros_pasos
-   manipular_datos
-   datos
+   insertar_datos
    generacion_enfrentamientos
    Actas <actas>
    resultados
    feedbacks
    Cómo probar la aplicación <probar_tabademic>
    Desarrollador <desarrollador>
+   lista_clubes

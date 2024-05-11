@@ -4,17 +4,17 @@
 
 Siempre que se vayan a generar los enfrentamientos de una ronda, es muy recomendable echarle un vistazo a la **disponibilidad de los jueces** (la cual se encuentra bajo la pestaña de `Debates`).
 
-En dicha página será posible ver qué jueces estarán disponibles en cada ronda, facilitando así el saber quiénes juzgarán la siguiente.
+En dicha página será posible en qué rondas está disponible cada juez, facilitando así el saber quiénes juzgarán la siguiente.
 
 <div class="centered-image">
 
-![Jueces primera ronda](_images/disponibilidades.png)
+![Ejemplo de disponibilidades](_images/disponibilidades.png)
 
 </div>
 
 <div class="caption">
 
-Algunos jueces de la primera ronda
+Disponibilidades de los 10 primeros jueces
 
 </div>
 
@@ -22,9 +22,7 @@ Algunos jueces de la primera ronda
 
 <div class="tip">
 💡
-Es posible que haya jueces que en principio dijesen que estarían disponibles para una determinada ronda, pero que al final por diversas circunstancias no hayan podido estar presente en la misma (o viceversa).
-
-En tales casos, existe la posibilidad de  <span class="bold">eliminar o incluir</span> dicha disponibilidad desde esta misma entidad.
+También puedes <span class="bold">incluir nuevas disponibilidades</span> dándole click a `Insertar disponibilidad`
 
 </div>
 
@@ -59,9 +57,11 @@ La primera de forma totalmente **aleatoria**, mientras que el resto mediante el 
 
 #### Método suizo y criterios de clasificación
 
-El método suizo que aplica Tabademic consiste en ordenar a los equipos de mejor a peor y hacer que se enfrenten el primero contra el segundo, el tercero contra el cuarto...
+El método suizo que aplica Tabademic consiste en las siguientes fases:
 
-Dicho ordenamiento (es decir, la clasificación) se calcula atendiendo a los siguientes criterios:
+**1. Ordenar los equipos de acuerdo a la clasificación general**
+
+Mediante los siguientes criterios (de mayor a menor importancia):
 
 * Número de victorias
 
@@ -71,11 +71,33 @@ Dicho ordenamiento (es decir, la clasificación) se calcula atendiendo a los sig
 
 * Ítems
 
-<div class="tip">
-💡
-Si tu torneo utiliza un criterio diferente, contacta por favor con el desarrollador.
+**2. Emparejar equipos de forma adyacente**
+
+El primero contra el segundo, el tercero con el cuarto... siempre teniendo en cuenta **las siguientes restricciones**:
+
+* Que ningún equipo debata **AF o EC más de la cuenta** (para impedir que, si por ejemplo el torneo tiene 5 rondas, nadie haga 4 AF ó 4 EC) o que **haga la misma postura 3 veces seguidas**
+
+* Ambos equipos **no se hayan enfrentado anteriormente**
+
+Si alguna de las restricciones no se cumple, se realizará otro emparejamiento.
+
+Por poner un ejemplo, si estamos en la sexta y última ronda y el primer equipo de la clasificación ya se ha enfrentado contra el segundo (cosa bastante común por el propio sistema suizo), el primero se enfrentaría al tercero y el segundo al cuarto.
+
+O si en vez de habersen enfrentado anteriormente, hubieran debatido A Favor sus dos últimas rondas, se realizaría lo mismo, para evitar que uno de ellos debata dicha postura 3 veces seguidas.
+
+Estas sustituciones se harán de tal forma que el suizo se vea impactado lo mínimo posible, garantizando (salvo en contadísimas excepciones que por supuesto se podrán modificar manualmente) que ambos equipos tengan una diferencia de como mucho una victoria.
+
+
+<div class="warning">
+⚠️
+Si ves algún emparejamiento extraño (ya sea porque hay mucha diferencia de nivel o porque las posturas no son correctas), recuerda que puedes modificar los enfrentamientos a mano. <span class="bold">Se agradecería enormemente que avisaras también al desarrollador para que lo arregle lo antes posible.</span>
 
 </div>
+
+
+**3. Calcular las posturas**
+
+Una vez Tabademic sabe qué dos equipos se enfrentan, elige las posturas de la forma más equitativa posible (si por ejemplo estamos en la segunda ronda y el equipo A acaba de debatir AF y el B en contra, A sería EC y B a favor). Si ambos hubieran hecho la misma postura, se eligiría al azar.
 
 
 ### Rondas finales
@@ -124,7 +146,7 @@ Esta contiene a todos los equipos y jueces marcados como disponibles para la sig
 * Los jueces secundarios (en caso de haber)
 
 
-Cabe aclarar que estos enfrentamientos **no tienen por qué ser definitivos**, siendo únicamente los que Tabademic ha considerado más adecuados en base a su algoritmo de generación de enfrentamientos (el cual se explicó en dellate anteriormente) y a la puntuación asignada a cada juez (siendo los N mejores principales, y el resto secundarios). Es por tanto posible modificarlos mediante **drag and drop**.
+Cabe aclarar que estos enfrentamientos **no tienen por qué ser definitivos**, siendo únicamente los que Tabademic ha considerado más adecuados en base a su algoritmo de generación de enfrentamientos (el cual se explicó en dellate anteriormente) y a la puntuación asignada a cada juez (siendo los N mejores principales y el resto secundarios). Es por tanto posible modificarlos mediante **drag and drop**.
 
 ## Drag and drop
 
@@ -187,14 +209,28 @@ La siguiente lista contiene todas las restricciones que Tabademic tiene en cuent
 * Incompatibilidad entre un juez y un equipo en específico
 
 
-### Eliminar jueces
+### Quitar o añadir jueces
 
-En caso de que hayamos pasado por alto alguna disponibilidad, también es posible eliminarla en esta página simplemente arrastrando el juez deseado a la pepelerita que se encuentra en la esquina superior derecha, impidiendo así que juzgue ningún enfrentamiento de la ronda actual.
+En la esquina inferior derecha se encuentra una papelerita que sirve a modo de **reserva**, en donde se encontrarán todos los jueces que no aparecen como disponibles para la siguiente ronda, además de aquellos que arrastremos desde la tabla de enfrentamientos.
+
+Esto permite que aquellos jueces que no aparecían como disponibles puedan juzgar la siguiente ronda, y viceversa.
+
+![Papelerita](_images/papelerita.png)
+
+<div class="caption">Ejemplo de juez inicialmente disponible arrastrado a la papelerita (razón por la cual aparece en rojo)</div>
+
+<br>
+
+<div class="warning"> 
+
+⚠️ En caso contrario (es decir, que un juez que inicialmente no estaba como disponible sea arrastrado a la tabla, aparecerá un aviso indicándolo)
+
+</div>
 
 
 ## Confirmar enfrentamientos
 
-Una vez estemos conformes con el resultado deseado, simplemente debemos darle click al botón que dice "Generar enfrentamientos". Una vez hecho esto, se descargará automáticamente un fichero éxcel con los enfrentamientos que acabamos de confirmar, de tal forma que los podamos tener a mano fácilmente de cara al anuncio de los mismos.
+Una vez estemos conformes con el resultado deseado, simplemente debemos darle click a `Generar enfrenatmientos`. Una vez hecho esto, se descargará automáticamente un éxcel con los enfrentamientos que acabamos de confirmar, de tal forma que los podamos tener a mano fácilmente de cara al anuncio de los mismos.
 
 
 ![Éxcel con los enfrentamientos de la primera ronda](_images/excel_primera_ronda.png)

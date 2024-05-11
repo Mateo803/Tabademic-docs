@@ -2,7 +2,7 @@
 
 A medida que nuestro torneo vaya tomando forma, es interesante saber cómo van las cosas. Es por ello que en este apartado es posible obtener una gran cantidad de información del mismo.
 
-Por un lado se encuentra un **gráfico con los porcentajes de victorias AF/EC** (la cual es muy útil para saber el grado de sesgo que ha llegado a tener la pregunta) y por otro, la posibilidad de descargar un **fichero éxcel con todas las rondas hasta ahora, la clasificación actual y las menciones de oradores**.
+Por un lado se encuentra un **gráfico con los porcentajes de victorias AF/EC** (la cual es muy útil para saber el grado de sesgo que ha llegado a tener la pregunta) y por otro, la posibilidad de descargar un **éxcel con todas las rondas hasta ahora, la clasificación actual y las menciones de oradores**.
 
 <div class="warning">
 
@@ -28,10 +28,10 @@ Es un gráfico circular donde la sección azul corresponde a las victorias a fav
 <br>
 
 
-## Éxcel
+## Éxcel de resultados
 
-Su estructura es muy sencilla, siendo las primeras hojas las rondas que han acontecido hasta ahora, y las dos últimas la clasificación y las menciones de oradores.
+Su estructura es muy sencilla: contiene una hoja por cada ronda, una con la clasificación y otra con las menciones de oradores.
 
 [Aquí](_static/Resultados.xlsx) tienes el fichero correspondiente a los dos debates que se han insertado en el apartado anterior.
 
-Una vez estén insertadas todas las actas de las rondas clasificatorias, podrás saber perfectamente qué equipos pasan a la siguiente fase, además de conocer todas las menciones de oradores 🤩
+Una vez estén insertadas todas las actas de las rondas clasificatorias, podrás saber perfectamente **qué equipos pasan a la siguiente fase**, además de **conocer todas las menciones de oradores** 🤩

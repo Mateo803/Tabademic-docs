@@ -19,13 +19,15 @@ Una vez le des click a la URL del torneo, aparecerá la siguiente página de log
 
 ![Login](_images/login.png)
 
-Simplemente debes iniciar sesión con el usuario y contraseña obtenidos en el paso anterior. Después de ello, serás redirigido a la página de configuración.
+Simplemente debes iniciar sesión con el usuario y contraseña obtenidos en el paso anterior. Después de ello, serás redirigido al menú de configuración.
+
+![Ejemplo de configuración](_images/menu_configuracion.png)
 
 ## Configurar el torneo ⚙️
 
 Tabademic cuenta con diversas opciones de configuración, de tal forma que pueda adaptarse a las necesidades de cada torneo en particular.
 
-En ella podremos configurar los siguientes parámetros, divididos en 3 categorías:
+En ella podremos realizar las siguientes configuraciones:
 
 ### Datos del torneo
 
@@ -33,13 +35,15 @@ En ella podremos configurar los siguientes parámetros, divididos en 3 categorí
 
 * Valor mínimo y máximo de ítems
 
+* Criterio de desempate en el caso de que dos o más equipos tengan el mismo número de victorias
+
 * ¿Es un torneo interno?
 
 * ¿Se enfrentan todos los equipos entre sí? Útil en torneos pequeños, como por ejemplo en internos
 
-* ¿Se permite el que los jueces modifiquen sus propias disponibilidades?
+* ¿Se permite el que los jueces modifiquen sus propias disponibilidades a través de sus URLs privadas?
 
-* ¿Permitir envío de feedbacks?
+* ¿Permitir envío de feedbacks? En caso de que esta opción esté habilitada, los equipos dispondrán también de URLs privadas para que puedan enviarlas a sus jueces principales
 
 <div class="warning"> 
 
@@ -52,20 +56,44 @@ De tal forma que a la hora de rellenar actas solo aparezan las seleccionadas en 
 
 ### Ronda actual
 
-* Liberarla a los jueces, permitiendo de esta manera que puedan enviar actas (y deshacerla en caso de haberlo hecho antes de tiempo)
+* Liberarla, permitiendo de esta manera que los jueces de dicha ronda puedan enviar sus actas. Esto es especialmente útil en la primera ronda, de tal forma que no se "filtren" los enfrentamientos. Además, es posible deshacer la liberación volviéndole a dar click.
 
-* Volver a la ronda anterior, eliminando todas las actas de la ronda actual. Se recomienda su uso únicamente en caso de que se hayan generado los enfrentamientos de una ronda de manera incorrecta y se necesiten volver a generar.
-
+* Volver a la ronda anterior, eliminando todas las actas de la ronda actual. Se recomienda su uso únicamente en caso de que se hayan generado los enfrentamientos de una ronda de manera incorrecta, ya que estos se limpiarán y será posible volver a generarlos sin ningún problema.
 
 <div class="warning"> 
 
 ⚠️ Pulsar de manera continuada el botón de reiniciar ronda actual hará que se vayan eliminando una ronda tras otra del torneo. <span class="bold">Utilizar con sumo cuidado.</span>
 </div>
 
+### Plantillas de emails
+
+Todos los jueces cuentan con una URL privada para poder enviar las actas digitales y cambiar sus disponibilidades (en caso de que dicha opción esté habilitada, claro está).
+
+Tabademic permite el envío de estas mediante correo electrónico, contando por tanto con una plantilla para que el mensaje sea a gusto de la organización del torneo.
+
+Su configuración es sumamente sencilla ya que basta con especificar tanto el asunto como el mensaje. Para que en este último se refleje la URL privada y el nombre de cada juez, habrá que escribir **{{URLPrivada}}** y **{{Juez}}** respectivamente.
+
+
+<div class="centered-image">
+
+![Ejemplo de plantilla de jueces](_images/plantilla_jueces.png)
+
+</div>
+
+<div class="caption">Ejemplo de la plantilla de los jueces</div>
+
+<br>
+
+<div class="tip"> 
+
+💡 Lo anterior aplica de la misma forma para los equipos (salvo que el botón de configuración solo aparecerá en caso de que la casilla de feedbacks esté activada). Para especificar el nombre del equipo en el cuerpo bastará con usar **{{Equipo}}**
+</div>
+
+<br>
+
+
 Además, es posible encontrar los siguientes dos botones:
 
 * **Guardar cambios** -> Guarda la configuración.
 
 * **Eliminar todos los datos del torneo** --> Muy útil en caso de que hubiéramos estado jugando un poco con la aplicación antes de insertar los datos reales.
-
-![Ejemplo de configuración](_images/menu_configuracion.png)

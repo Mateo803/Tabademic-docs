@@ -198,6 +198,6 @@ Aunque se recomienda el método anterior para insertar los datos del torneo, tam
 
 <div class="warning">
 
-⚠️ El orden de inserción importa. Por ejemplo, no puedes insertar un integrante sin antes haber introducido su equipo.
+⚠️ Ten en cuenta que <span class="bold">el orden de inserción importa.</span> Por ejemplo, no puedes insertar un orador sin antes haber introducido su correspondiente equipo.
 
 </div>

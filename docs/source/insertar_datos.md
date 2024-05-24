@@ -194,4 +194,10 @@ La forma de insertarlos es similar a las dos anteriores, teniendo un desplegable
 
 ## Inserción manual
 
-Aunque se recomienda el método anterior para insertar los datos del torneo, también es posible realizarlo de manera manual. Para ello simplemente basta con irse a cada dato e insertar cada dato uno a uno (los campos son los mismos vistos anteriormente).
+Aunque se recomienda el método anterior para insertar los datos del torneo, también es posible realizarlo de manera manual. Para ello simplemente basta con irse a cada entidad e ir introduciendo la información poco a poco (los campos son los mismos vistos con anterioridad).
+
+<div class="warning">
+
+⚠️ El orden de inserción importa. Por ejemplo, no puedes insertar un integrante sin antes haber introducido su equipo.
+
+</div>

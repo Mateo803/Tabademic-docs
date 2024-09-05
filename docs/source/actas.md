@@ -31,17 +31,12 @@ Para insertar un acta, simplemente debes darle click a su respectiva sala y rell
 
 <div class="warning">
 
-⚠️ Como se puede apreciar, el acta no es una réplica de la hoja de ítems, sino que se deriva de esta. Por lo tanto, en caso de que sean los jueces quienes envíen las actas digitales y veas alguna disparidad, <span class="bold"> guíate siempre por lo que ponga la hoja de ítems.</span>
+⚠️ Debido a que cada torneo tiene su propia acta física, la digital incluye únicamente los resultados derivados de esta. Por lo tanto, en caso de que sean los jueces quienes envíen las actas digitales y veas alguna disparidad, <span class="bold"> guíate siempre por la hoja de ítems.</span>
 
 </div>
 
 <br>
 
-<div class="tip">
-💡
-Todas las menciones son opcionales, permitiendo por tanto el poder dejar las que se deseen en blanco
-
-</div>
 
 Una vez hayas rellenado el acta, su estatus cambiará a **confirmada**.
 
@@ -49,6 +44,12 @@ Una vez hayas rellenado el acta, su estatus cambiará a **confirmada**.
 
 
 <br>
+
+<div class="tip">
+💡
+Si necesitas cambiar algún valor de un acta ya insertada, simplemente vuelve a entrar en ella y haz los cambios respectivos
+
+</div>
 
 ## Inserción a través de los jueces
 
@@ -90,10 +91,13 @@ Una vez enviada, su estatus cambiará a un signo de exclamación, indicando que 
 
 Simplemente debemos darle click a la sala del acta que deseamos confirmar. Una vez hecho esto, veremos los diferentes formularios los datos rellenados por el juez.
 
-Una vez hayamos comprobado que coincide con la acta física, bastará con presionar el botón de confirmar debate.
+Una vez hayamos comprobado que coincide con la acta física, bastará con presionar el botón de `confirmar acta`.
 
+<div class="centered-image">
 
 ![Acta preparada para ser confirmada](_images/confirmar_acta.png)
+
+</div>
 
 
 <br>
@@ -110,7 +114,7 @@ Habiendo hecho esto, podremos observar cómo la acta de dicho debate ya se encue
 
 <div class="tip">
 💡
-Para no tener que estar recargando la página continuamente una vez los jueces estén enviando las actas, es posible utilizar el botón de refrescar acta, el cual se encuentra en la parte inferior derecha de la tabla.
+Para no tener que estar recargando la página continuamente una vez los jueces estén enviando las actas, es posible refrescar las mismas mediante el icono en la parte superior derecha.
 
 </div>
 

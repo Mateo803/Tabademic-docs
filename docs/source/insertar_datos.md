@@ -1,6 +1,6 @@
 # Insertar datos
 
-Una vez configurado el torneo el siguiente paso es insertar los datos del mismo, en concreto:
+Una vez configurado el torneo, el siguiente paso es insertar los datos del mismo, en concreto:
 
 * Salas
 
@@ -18,7 +18,7 @@ Una vez configurado el torneo el siguiente paso es insertar los datos del mismo,
 
 <div class="tip">
 💡
-Puedes acceder a cada uno desde la barra lateral, expandiendo <span class="bold">Datos del torneo.</span>
+Puedes acceder a cada uno desde la barra lateral, expandiendo <span class="bold">Datos.</span>
 
 </div>
 
@@ -48,7 +48,7 @@ La cual cuenta con las siguientes columnas
 
 * Nombre del equipo
 * Club al que pertenece (debe coincidir con alguno de [esta lista](lista_clubes))
-* Correo electrónico (si no va a haber feedbacks se recomienda dejarlo en blanco)
+* Puntuación (la cual se utilizará únicamente en la primera ronda en caso de que se haya seleccionado la opción correspondiente)
 * Primer integrante
 * Segundo integrante
 * Tercer integrante
@@ -73,7 +73,7 @@ Del mismo modo que antes, podemos importar los jueces del torneo mediante otro �
 
 * Club al que pertenece (también debe estar en [esta lista](lista_clubes))
 
-* Correo electrónico (para agilizar el envío de URLs privadas, aunque puede dejarse en blanco si así se desea)
+* Correo electrónico (para agilizar el envío de URLs privadas, aunque puede dejarse en blanco si no se desea contar con ellas)
 
 * Puntuación (cuanto más alto más probable que ese juez sea principal; puede estar en blanco, transformándose en un 0 posteriormente).
 
@@ -85,7 +85,7 @@ Del mismo modo que antes, podemos importar los jueces del torneo mediante otro �
 
 <div class="tip">
 
-💡 No te preocupes si las disponibilidades no son definitivas ya que estas se pueden modificar juez a juez posteriormente.
+💡 No te preocupes si las disponibilidades no son definitivas, ya que estas se podrán modificar yendo al juez en cuestión
 
 </div>
 
@@ -117,11 +117,19 @@ Si ha habido algún tipo de error en los datos (ya sea porque la estructura del 
 Una vez esté todo correcto, aparecerá un popup indicando que los datos se han insertado satisfactoriamente, ahorrándonos una gran cantidad de tiempo comparado con su subida manual.
 
 
-### A tener en cuenta
+<div class="warning">
+
+<h3>⚠️ A tener en cuenta</h3>
+
+Solamente se mostrarán los clubes de los equipos insertados (de tal forma que no se pueda elegir uno que no tenga relación con ningún equipo del torneo)
 
 * En caso de que ya hayas subido el éxcel y haya cambios de última hora, simplemente actualízalo en tu ordenador y vuélvelo a subir. Tabademic **reemplazará** todo lo que hubiera actualmente con los datos actualizados.
 
 * Por lo anterior, no se aconseja que vuelvas a subir el éxcel de jueces una vez les hayas entregado sus URLs privadas, **ya que estas cambiarán y tendrás que volver a enviarlas**. Si los cambios son muy pequeños (como añadir un equipo o modificar el correo de un juez), hazlo de manera manual (es algo más engorroso, pero tampoco supondrá mucho problema al tratarse de modificaciones puntuales).
+
+</div>
+
+<br>
 
 ¡Ahora solo resta insertar las incompatibilidades!
 
@@ -139,12 +147,6 @@ Tabademic permite incluir los siguientes tipos de incompatibilidades:
 
 Para incluir este tipo de incompatibilidad, simplemente basta con seleccionar en el primer desplegable el juez en cuestión, y en el segundo la incompatibilidad en sí.
 
-<div class="centered-image">
-
-![Incompatibilidad entre jueces](_images/incompatibilidad_jueces.png)
-
-</div>
-
 
 <br>
 
@@ -158,11 +160,6 @@ No hay límite en cuanto al número de incompatibilidades que puede tener un mis
 
 Muy similar a la entidad anterior, solo que esta vez el segundo desplegable se refiere al equipo en cuestión.
 
-<div class="centered-image">
-
-![Incompatibilidad entre juez y club](_images/incompatibilidad_juez_equipo.png)
-
-</div>
 
 <div class="tip">
 💡
@@ -170,17 +167,11 @@ Solo aparecerán equipos distintos al del club del juez, ya que dicha incompatib
 
 </div>
 
-<div class="centered-image">
-
-![Incompatibilidad entre jueces y equipos](_images/incompatibilidad_juez_club.png)
-
-</div>
-
 <br>
 
 #### Entre jueces y clubes
 
-Obviando el propio club (por lo ya explicado anteriormente), es posible indicar para cada juez con qué otros clubes tiene incompatibilidad, de tal forma que no pueda juzgar ningún equipo que pertenezca a dichas instituciones (aunque sí podrá juzgar con jueces que pertenezcan a dichos clubes).
+Obviando el propio club (ya que Tabademic detecta este tipo de incompatibilidades automáticamente), es posible indicar para cada juez con qué otros clubes tiene incompatibilidad, de tal forma que no pueda juzgar ningún equipo que pertenezca a dichas instituciones (aunque sí podrá juzgar con jueces que pertenezcan a dichos clubes).
 
 La forma de insertarlos es similar a las dos anteriores, teniendo un desplegable con el juez en cuestión y otro con el club.
 
@@ -195,9 +186,3 @@ La forma de insertarlos es similar a las dos anteriores, teniendo un desplegable
 ## Inserción manual
 
 Aunque se recomienda el método anterior para insertar los datos del torneo, también es posible realizarlo de manera manual. Para ello simplemente basta con irse a cada entidad e ir introduciendo la información poco a poco (los campos son los mismos vistos con anterioridad).
-
-<div class="warning">
-
-⚠️ Ten en cuenta que <span class="bold">el orden de inserción importa.</span> Por ejemplo, no puedes insertar un orador sin antes haber introducido su correspondiente equipo.
-
-</div>

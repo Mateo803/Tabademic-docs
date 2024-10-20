@@ -96,7 +96,7 @@ Estos son los clubes con los que Tabademic cuenta actualmente (**si necesitas in
 			<td>Club de Debate de la Universidad de Alicante</td>
 		</tr>
 		<tr>
-			<td>CDUGR</td>
+			<td>UGR</td>
 			<td>Club de Debate Universitario de Granada</td>
 		</tr>
 		<tr>

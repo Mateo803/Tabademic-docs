@@ -71,7 +71,7 @@ Del mismo modo que antes, podemos importar los jueces del torneo mediante otro �
 
 * Nombre del juez
 
-* Club al que pertenece (también debe estar en [esta lista](lista_clubes))
+* Club al que pertenece (también debe estar en [esta lista](lista_clubes), excepto si es independiente, en cuyo caso puede dejarse en blanco)
 
 * Correo electrónico (para agilizar el envío de URLs privadas, aunque puede dejarse en blanco si no se desea contar con ellas)
 

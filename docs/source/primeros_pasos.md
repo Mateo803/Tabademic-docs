@@ -39,7 +39,7 @@ En ella podremos realizar las siguientes configuraciones:
 
 * ¿Es un torneo interno? Esto es útil ya que no se tendrán en cuenta incompatibilidades de club al generar los enfrentamientos.
 
-* ¿Es obligatorio poner mención a todos los oradores durante un debate, o por el contrario pueden dejarse en blanco a voluntad de los jueces?
+* ¿Habrá menciones para cada postura o por el contrario cada orador contará con una puntuación?
 
 <div class="warning"> 
 
@@ -107,13 +107,9 @@ Su configuración es sumamente sencilla ya que basta con especificar tanto el as
 
 Además, es posible encontrar los siguientes dos botones:
 
-* **Guardar cambios** -> Guarda la configuración.
 
-
-<br>
-
-* **Limpiar enfrentamientos guardados** -> Cada vez que se generen los enfrentamientos de una ronda, estos se guardarán de forma automática (para en caso de que tengamos que corregir algo, podamos reiniciarla y simplemente hacer los cambios oportunos). Al darle click y volver a generar los enfrentamientos de la ronda actual, Tabademic se encargará de los enfrentamientos (en función de cómo hayamos configurado el torneo, claro está).
+* **Limpiar enfrentamientos guardados:** Cada vez que se generen los enfrentamientos de una ronda, estos se guardarán de forma automática (para en caso de que tengamos que corregir algo, podamos reiniciarla y simplemente hacer los cambios oportunos). Al darle click y volver a generar los enfrentamientos de la ronda actual, Tabademic se encargará de los enfrentamientos (en función de cómo hayamos configurado el torneo, claro está).
 
 <br>
 
-* **Eliminar todos los datos del torneo** -> Muy útil en caso de que hubiéramos estado jugando un poco con la aplicación antes de insertar los datos reales.
+* **Eliminar todos los datos del torneo:** Muy útil en caso de que hubiéramos estado jugando un poco con la aplicación antes de insertar los datos reales.

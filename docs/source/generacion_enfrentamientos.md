@@ -229,7 +229,7 @@ Como ya se comentó, dependiendo de la ronda generada, será posible reordenar l
 
 <div class="tip">
 💡
-Si ha habido un cambio de última hora que te fuerza a modificar los enfrentamientos de una ronda, no te preocupes. Simplemente vuelve a la anterior desde el menú de configuración y genéralos de nuevo.
+Si ha habido un cambio de última hora que te fuerza a modificar los enfrentamientos de una ronda, no te preocupes. Simplemente reiníciala desde el menú de configuración y genéralos de nuevo.
 
 </div>
 

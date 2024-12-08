@@ -43,7 +43,7 @@ En ella podremos realizar las siguientes configuraciones:
 
 <div class="warning"> 
 
-⚠️ El número de rondas no se podrá cambiar una vez se hayan generado los enfrentamientos de la primera ronda
+⚠️ El número de rondas no se podrá cambiar una vez se hayan generado los enfrentamientos de la primera ronda.
 </div>
 
 
@@ -74,15 +74,16 @@ En la cual es posible:
 
 <div class="tip">
 💡
-Esta opción solo estará disponible si los jueces tienen URLs privadas
+Esta opción solo estará disponible si los jueces tienen URLs privadas.
 
 </div>
 
-* **Volver a la ronda anterior**, eliminando todas las actas de la ronda actual. Se recomienda su uso únicamente en caso de que se hayan generado los enfrentamientos de una ronda de manera incorrecta, ya que será posible volver a modificarlos desde el punto donde se dejó (**siempre y cuando dichos enfrentamientos no se hayan borrado con anterioridad**) y volver a generar la ronda sin ningún problema.
+* **Reiniciar ronda actual**, la cual permite volver a modificar los enfrentamientos de la ronda actual en caso de que haya habido algún cambio de última hora (estos se guardan de manera automática, así que simplemente habrá que hacer el cambio deseado y volver a confirmar).
 
-<div class="warning"> 
+<div class="tip">
+💡
+En caso de que haya al menos un acta insertada en la ronda actual, no será posible seleccionar esta opción (a fin de cuentas su uso está pensado únicamente para minutos posteriores a la generación de la ronda, es decir, mucho antes de que los debates estén próximos a terminar).
 
-⚠️ Seleccionar de manera continuada dicha opción hará que se vayan eliminando una ronda tras otra del torneo. <span class="bold">Utilizar con sumo cuidado, ya que si una ronda es eliminada esta no se podrá volver a recuperar.</span>
 </div>
 
 ### Plantillas de emails

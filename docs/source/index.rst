@@ -15,11 +15,11 @@ Tabademic es un software de tabulación **enfocado exclusivamente en debate acad
 
 Para ello cuenta (entre otras muchas cosas) con las siguientes funcionalidades:
 
-* Generación de enfrentamientos (mediante suizo o sistema todos contra todos)
+* Generación de enfrentamientos (mediante **sistema suizo** o **todos contra todos**).
 
-* Asignación automática de jueces a cada enfrentamiento teniendo en cuenta todo tipo de incompatibilidades (permitiendo su posterior modificación manual)
+* Detección de múltiples tipos de **incompatibilidades** a la hora de generar los enfrentamientos de una ronda.
 
-* Cálculo en tiempo real de la clasificación de los equipos y las menciones de los oradores
+* Cálculo en tiempo real de la **clasificación de los equipos** y las **menciones/puntuaciones** de los oradores.
 
 
 ------------------------------

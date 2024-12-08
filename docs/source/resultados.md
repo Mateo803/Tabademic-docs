@@ -19,11 +19,17 @@ El mismo contiene las siguientes hojas:
 
 * La clasificación actual
 
-* Las menciones de oradores
+* Las menciones/puntuación de los oradores
 
 * Los jueces y qué debates han juzgado
 
 * Un apartado de estadísticas
+
+<div class="tip">
+💡
+En caso de haber puntuación, cada orador contará con una por cada rol, además de la suma total (para determinar al mejor orador). En caso de que este realizase dos intervenciones por cada debate, se tendrá en cuenta la <span class="bold">media aritmética</span> de las mismas.
+
+</div>
 
 <div class="tip">
 💡
@@ -35,4 +41,4 @@ Actualmente la única estadística recogida es el porcentaje de victorias AF/EC 
 
 
 
-Dicho fichero es sumamente útil porque una vez estén insertadas todas las actas de las rondas clasificatorias, podrás saber perfectamente **qué equipos pasan a la siguiente fase**, además de **conocer todas las menciones de oradores** 🤩
+Dicho fichero es sumamente útil porque una vez estén insertadas todas las actas de las rondas clasificatorias, podrás saber perfectamente **qué equipos pasan a la siguiente fase**, además de **conocer todas las menciones/puntuaciones de oradores** 🤩

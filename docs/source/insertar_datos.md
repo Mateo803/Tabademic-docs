@@ -48,7 +48,6 @@ La cual cuenta con las siguientes columnas
 
 * Nombre del equipo
 * Club al que pertenece (debe coincidir con alguno de [esta lista](lista_clubes))
-* Puntuación (la cual se utilizará únicamente en la primera ronda en caso de que se haya seleccionado la opción correspondiente)
 * Primer integrante
 * Segundo integrante
 * Tercer integrante

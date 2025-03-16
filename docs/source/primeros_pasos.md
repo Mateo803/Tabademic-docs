@@ -58,9 +58,6 @@ En ella podremos realizar las siguientes configuraciones:
 
 * ¿Formato suizo o se enfrentarán todos los equipos entre sí? Esta última opción es muy útil en torneos pequeños, como por ejemplo en internos
 
-* En caso de ser formato suizo, ¿la primera ronda será aleatoria o dependerá del nivel estimado de los equipos?
-En caso de que se seleccione esta opción, se le podrá asignar una puntuación a cada equipo por la cual se generará dicha primera ronda (el resto seguirá por formato suizo).
-
 
 ### Posturas
 

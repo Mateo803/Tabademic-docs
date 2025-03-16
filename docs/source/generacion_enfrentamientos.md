@@ -4,7 +4,7 @@
 
 Siempre que se vayan a generar los enfrentamientos de una ronda, es muy recomendable echarle un vistazo a la **disponibilidad de los jueces** (la cual se encuentra bajo la pestaña de `Debates`).
 
-En dicha página será posible en qué rondas está disponible cada juez, facilitando así el saber quiénes juzgarán la siguiente.
+En dicha página aparecerá una tabla indicando qué jueces están disponibles en qué rondas. Además, **al darle click a una casilla en concreto será posible alternar dicha disponibilidad**, haciendo este proceso mucho más rápido e intuitivo.
 
 <div class="centered-image">
 
@@ -22,7 +22,7 @@ Disponibilidades de los 10 primeros jueces
 
 <div class="tip">
 💡
-Recuerda que puedes cambiar las disponibilidades en cualquier momento yendo al juez en cuestión
+Recuerda que también es posible cambiar las disponibilidades yendo a la página del juez en cuestión
 
 </div>
 

@@ -37,7 +37,7 @@ En ella podremos realizar las siguientes configuraciones:
 
 * Criterio de desempate en el caso de que dos o más equipos tengan el mismo número de victorias
 
-* ¿Es un torneo interno? Esto es útil ya que no se tendrán en cuenta incompatibilidades de club al generar los enfrentamientos.
+* ¿Es un torneo interno? Esto es útil ya que no se tendrán en cuenta incompatibilidades de institución al generar los enfrentamientos.
 
 * ¿Habrá menciones para cada postura o por el contrario cada orador contará con una puntuación?
 

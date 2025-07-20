@@ -1,11 +1,11 @@
-# Lista de clubes
+# Instituciones soportadas por Tabademic
 
-Estos son los clubes con los que Tabademic cuenta actualmente (**si necesitas incluir alguno, contacta por favor con el desarrollador**):
+Estas son las instituciones con las que Tabademic cuenta actualmente (**si necesitas incluir alguna, contacta por favor con el desarrollador**):
 
 <table border="1">
     <thead>
         <tr>
-            <th>Club</th>
+            <th>Institución</th>
             <th>Nombre oficial</th>
         </tr>
     </thead>

@@ -34,4 +34,4 @@ Para ello cuenta (entre otras muchas cosas) con las siguientes funcionalidades:
    resultados
    Cómo probar la aplicación <probar_tabademic>
    Desarrollador <desarrollador>
-   lista_clubes
+   lista_instituciones

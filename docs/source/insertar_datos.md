@@ -14,7 +14,7 @@ Una vez configurado el torneo, el siguiente paso es insertar los datos del mismo
 
 * Incompatibilidades entre jueces y equipos (en caso de haber)
 
-* Incompatibilidades entre jueces y clubes (en caso de haber)
+* Incompatibilidades entre jueces e instituciones (en caso de haber)
 
 <div class="tip">
 💡
@@ -47,7 +47,7 @@ Una única columna con todas las salas que vayas a disponer durante el torneo.
 La cual cuenta con las siguientes columnas
 
 * Nombre del equipo
-* Club al que pertenece (debe coincidir con alguno de [esta lista](lista_clubes))
+* Institución al que pertenece (debe coincidir con alguno de [esta lista](lista_instituciones))
 * Primer integrante
 * Segundo integrante
 * Tercer integrante
@@ -70,7 +70,7 @@ Del mismo modo que antes, podemos importar los jueces del torneo mediante otro �
 
 * Nombre del juez
 
-* Club al que pertenece (también debe estar en [esta lista](lista_clubes), excepto si es independiente, en cuyo caso puede dejarse en blanco)
+* Institución a la que pertenece (también debe estar en [esta lista](lista_instituciones), excepto si es independiente, en cuyo caso puede dejarse en blanco)
 
 * Correo electrónico (para agilizar el envío de URLs privadas, aunque puede dejarse en blanco si no se desea contar con ellas)
 
@@ -120,7 +120,7 @@ Una vez esté todo correcto, aparecerá un popup indicando que los datos se han 
 
 <h3>⚠️ A tener en cuenta</h3>
 
-Solamente se mostrarán los clubes de los equipos insertados (de tal forma que no se pueda elegir uno que no tenga relación con ningún equipo del torneo)
+Solamente se mostrarán las instituciones de los equipos insertados (de tal forma que no se pueda elegir uno que no tenga relación con ningún equipo del torneo)
 
 * En caso de que ya hayas subido el éxcel y haya cambios de última hora, simplemente actualízalo en tu ordenador y vuélvelo a subir. Tabademic **reemplazará** todo lo que hubiera actualmente con los datos actualizados.
 
@@ -140,7 +140,7 @@ Tabademic permite incluir los siguientes tipos de incompatibilidades:
 
 * Entre jueces y equipos
 
-* Entre jueces y clubes
+* Entre jueces e instituciones
 
 #### Entre jueces
 
@@ -162,17 +162,17 @@ Muy similar a la entidad anterior, solo que esta vez el segundo desplegable se r
 
 <div class="tip">
 💡
-Solo aparecerán equipos distintos al del club del juez, ya que dicha incompatibilidad ya se tiene en cuenta automáticamente
+Solo aparecerán equipos distintos al de la institución del juez, ya que dicha incompatibilidad ya se tiene en cuenta automáticamente
 
 </div>
 
 <br>
 
-#### Entre jueces y clubes
+#### Entre jueces e instituciones
 
-Obviando el propio club (ya que Tabademic detecta este tipo de incompatibilidades automáticamente), es posible indicar para cada juez con qué otros clubes tiene incompatibilidad, de tal forma que no pueda juzgar ningún equipo que pertenezca a dichas instituciones (aunque sí podrá juzgar con jueces que pertenezcan a dichos clubes).
+Obviando a la propia institución (ya que Tabademic detecta este tipo de incompatibilidades automáticamente), es posible indicar para cada juez con qué otras instituciones tiene incompatibilidad, de tal forma que no pueda juzgar ningún equipo que pertenezca a dichas instituciones (aunque sí podrá juzgar con jueces que pertenezcan a las mismas).
 
-La forma de insertarlos es similar a las dos anteriores, teniendo un desplegable con el juez en cuestión y otro con el club.
+La forma de insertarlos es similar a las dos anteriores, teniendo un desplegable con el juez en cuestión y otro con la institución.
 
 <div class="warning">
 

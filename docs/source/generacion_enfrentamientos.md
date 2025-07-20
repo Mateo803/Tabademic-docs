@@ -170,7 +170,7 @@ En caso de haber una, aparecerá un icono en la última columna en el que, al po
 
 ![Ejemplo de incompatibilidad](_images/incompatibilidad.png)
 
-<div class="caption">Ejemplo de incompatibilidad de club</div>
+<div class="caption">Ejemplo de incompatibilidad de institución</div>
 
 <br>
 
@@ -186,7 +186,7 @@ La siguiente lista contiene todas las restricciones que Tabademic tiene en cuent
 
 * Que un equipo haya sido juzgado anteriormente (ya sea en la última ronda del juez o en cualquier otra)
 
-* Incompatibilidad de club, el cual puede darse ya sea porque el juez pertenece al mismo club del equipo, o porque se ha especificado en el apartado de `Incompatibilidades entre jueces y clubes`.
+* Incompatibilidad de institución, la cual puede darse ya sea porque tanto el juez como el equipo pertenecen a la misma institución, o porque se ha especificado en el apartado de `Incompatibilidades entre jueces e instituciones`.
 
 * Incompatibilidad entre jueces
 
@@ -217,7 +217,7 @@ Una vez estemos conformes con el resultado deseado, simplemente debemos darle cl
 
 ⚠️ Si hay al menos una restricción, el botón estará en naranja en vez de azul. Aún así, es posible generarlos, así que no te preocupes.
 
-Puede haber casos muy concretos en los que sí o sí haya restricciones (como cuando se trata de un torneo interno en el que no es posible evitar en alguna sala incompatibilidad de club). En dicho caso, simplemente intenta modificarlos hasta que consigas los enfrentamientos que más se adecúen a tus necesidades.
+Puede haber casos muy concretos en los que sí o sí haya restricciones (como cuando se trata de un torneo interno en el que no es posible evitar en alguna sala incompatibilidad de institución). En dicho caso, simplemente intenta modificarlos hasta que consigas los enfrentamientos que más se adecúen a tus necesidades.
 
 </div>
 

@@ -176,7 +176,7 @@ La forma de insertarlos es similar a las dos anteriores, teniendo un desplegable
 
 <div class="warning">
 
-⚠️ Solamente se mostrarán los clubes de los equipos insertados (de tal forma que no se pueda elegir uno que no tenga relación con ningún equipo del torneo)
+⚠️ Solamente se mostrarán las instituciones de los equipos insertados (de tal forma que no se pueda elegir una que no tenga relación con ningún equipo del torneo)
 
 </div>
 

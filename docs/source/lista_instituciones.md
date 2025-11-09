@@ -119,6 +119,10 @@ Estas son las instituciones con las que Tabademic cuenta actualmente (**si neces
 <td>Club de Debate de la Universidad de Alicante</td>
 </tr>
 <tr>
+<td>CDUPSA</td>
+<td>Club de Debate de la Universidad Pontificia de Salamanca</td>
+</tr>
+<tr>
 <td>CEU CARDENAL HERRERA</td>
 <td>Club de Debate de la Universidad de CEU Cardenal Herrera</td>
 </tr>
@@ -455,8 +459,8 @@ Estas son las instituciones con las que Tabademic cuenta actualmente (**si neces
 <td>Universidad Complutense de Madrid - Comunícate</td>
 </tr>
 <tr>
-<td>UCO</td>
-<td>Aula de Debate de Córdoba</td>
+<td>SÉNECA</td>
+<td>Asociación de Debate Séneca</td>
 </tr>
 <tr>
 <td>UCV</td>
